@@ -1,4 +1,4 @@
-﻿@model sarayetelNewsModel
+@model sarayetelNewsModel
 
 @{
     const string cardId = "sarayetel-news-box";
@@ -57,7 +57,7 @@
             <script>
             $(function() {
                 $('#@cardId').on('click', 'button[data-widget="collapse"]', function () {
-                    var collapsed = !$('#@cardId').hasClass('collapsed-box');
+                    var collapsed = $('#@cardId').hasClass('collapsed-card');
                     saveUserPreferences('@(Url.Action("SavePreference", "Preferences"))', '@hideCardAttributeName', collapsed);
                 });
             });

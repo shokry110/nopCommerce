@@ -24,6 +24,10 @@
 
     //avatar
     var currentCustomer = await workContext.GetCurrentCustomerAsync();
+
+    var adminLogoPath = Url.Content("~/Themes/DefaultClean/Content/images/logo.png");
+    var adminLogoMiniPath = Url.Content("~/Themes/DefaultClean/Content/images/logo.png");
+    const string adminLogoAlt = "SarayeTel";
     
     //event
     await eventPublisher.PublishAsync(new PageRenderingEvent(NopHtml));
@@ -79,7 +83,7 @@
                     @await Component.InvokeAsync(typeof(AdminWidgetViewComponent), new { widgetZone = AdminWidgetZones.HeaderToggleAfter })
                 </ul>
                 <a href="@Url.Content("~/Admin")" class="brand-link navbar-dark">
-                    <img src="~/css/admin/images/logo.png" alt="logo.png" class="brand-image logo d-block d-md-none d-sm-block d-sm-none">
+                    <img src="@adminLogoPath" alt="@adminLogoAlt" class="brand-image logo d-block d-md-none d-sm-block d-sm-none">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -116,7 +120,7 @@
                                         <form asp-controller="Common" asp-action="ClearCache" asp-area="@AreaNames.ADMIN">
                                             <input name="returnurl" type="hidden" value="@returnUrl">
                                             <div class="input-group-append">
-                                                <button type="submit" style="width:210px;background-color: Transparent;">
+                                                <button type="submit" style="inline-size:210px;background-color:transparent;">
                                                     <span>@T("Admin.Header.ClearCache")</span>
                                                 </button>
                                             </div>
@@ -125,7 +129,7 @@
                                     <li class="dropdown-item">
                                         <form asp-controller="Common" asp-action="RestartApplication" asp-area="@AreaNames.ADMIN">
                                             <input name="returnurl" type="hidden" value="@returnUrl">
-                                            <button id="restart-application" type="submit" style="width:210px;background-color: Transparent;">
+                                            <button id="restart-application" type="submit" style="inline-size:210px;background-color:transparent;">
                                                 <span>@T("Admin.Header.RestartApplication")</span>
                                             </button>
                                             <script>
@@ -155,9 +159,9 @@
         {
             <aside class="main-sidebar sidebar-dark-primary elevation-4">
                 <!-- Brand Logo -->
-            <a href="@Url.Content("~/Admin")" class="brand-link navbar-dark logo-switch">
-                    <img src="~/css/admin/images/logo.png" alt="logo.png" class="brand-image-xl logo-xl">
-                    <img src="~/css/admin/images/logo-mini.png" alt="logo.png" class="brand-image-xs logo-xs">
+                <a href="@Url.Content("~/Admin")" class="brand-link navbar-dark logo-switch">
+                    <img src="@adminLogoPath" alt="@adminLogoAlt" class="brand-image-xl logo-xl">
+                    <img src="@adminLogoMiniPath" alt="@adminLogoAlt" class="brand-image-xs logo-xs">
                 </a>
                 <div class="sidebar">
                     <div class="sidebar-form">
