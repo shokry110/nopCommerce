@@ -160,7 +160,7 @@ $RECYCLE.BIN/
 
 
 #######################
-## nopCommerce specific
+## sarayetel specific
 ###########
 glob:*.user
 *.patch

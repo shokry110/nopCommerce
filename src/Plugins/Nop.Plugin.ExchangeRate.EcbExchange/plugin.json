@@ -4,7 +4,7 @@
   "SystemName": "CurrencyExchange.ECB",
   "Version": "4.90.1",
   "SupportedVersions": [ "4.90" ],
-  "Author": "nopCommerce team",
+  "Author": "sarayetel team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.ExchangeRate.EcbExchange.dll",
   "Description": "This plugin allows getting exchange rates from ECB (European Central Bank)"

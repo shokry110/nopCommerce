@@ -1,8 +1,8 @@
-﻿@model NopCommerceNewsModel
+﻿@model sarayetelNewsModel
 
 @{
-    const string cardId = "nopcommerce-news-box";
-    const string hideCardAttributeName = "HideNopCommerceNewsCard";
+    const string cardId = "sarayetel-news-box";
+    const string hideCardAttributeName = "HidesarayetelNewsCard";
     var hideCard = await genericAttributeService.GetAttributeAsync<bool>(await workContext.GetCurrentCustomerAsync(), hideCardAttributeName);
 }
 
@@ -10,7 +10,7 @@
         <div class="card-header with-border clearfix">
             <div class="card-title">
                 <i class="far fa-newspaper"></i>
-                @T("Admin.NopCommerceNews")
+                @T("Admin.sarayetelNews")
                 @if (Model.HasNewItems)
                 {
                     <div class="new-item-notification"><span>+1</span></div>

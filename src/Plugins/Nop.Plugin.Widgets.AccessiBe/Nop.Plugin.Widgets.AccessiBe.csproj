@@ -6,8 +6,8 @@
     <Company>Nop Solutions, Ltd</Company>
     <Authors>Nop Solutions, Ltd</Authors>
     <PackageLicenseUrl></PackageLicenseUrl>
-    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl>
+    <PackageProjectUrl>https://www.sarayetel.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nopSolutions/sarayetel</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <OutputPath>$(SolutionDir)\Presentation\Nop.Web\Plugins\Widgets.AccessiBe</OutputPath>
     <OutDir>$(OutputPath)</OutDir>

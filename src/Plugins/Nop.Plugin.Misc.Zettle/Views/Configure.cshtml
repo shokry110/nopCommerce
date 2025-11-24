@@ -4,7 +4,7 @@
     Layout = "_ConfigurePlugin";
     NopHtml.SetActiveMenuItemSystemName(ZettleDefaults.SystemName);
 
-    var signUpUrl = $"https://my.zettle.com/apps/api-keys?name={ZettleDefaults.ApplicationName}&scopes=READ:FINANCE%20READ:PURCHASE%20READ:USERINFO%20READ:PRODUCT%20WRITE:PRODUCT&utm_source=local_partnership&utm_medium=ecommerce&utm_campaign=nopcommerce";
+    var signUpUrl = $"https://my.zettle.com/apps/api-keys?name={ZettleDefaults.ApplicationName}&scopes=READ:FINANCE%20READ:PURCHASE%20READ:USERINFO%20READ:PRODUCT%20WRITE:PRODUCT&utm_source=local_partnership&utm_medium=ecommerce&utm_campaign=sarayetel";
 }
 
 <form asp-controller="ZettleAdmin" asp-action="Configure" method="post" id="configuration-form">
@@ -136,8 +136,8 @@
                 <div class="card-body">
                     <p>
                         The PayPal Zettle Go POS application will display product items that have been set up in the PayPal Zettle product library.<br />
-                        Here you can define products from your nopCommerce catalog to be imported into PayPal Zettle product library and keep them synchronized across changes and updates.<br />
-                        The product library consists of products and their variants (in nopCommerce they are product attribute combinations). For correct synchronization, you have to fill in SKUs for products and combinations.<br />
+                        Here you can define products from your sarayetel catalog to be imported into PayPal Zettle product library and keep them synchronized across changes and updates.<br />
+                        The product library consists of products and their variants (in sarayetel they are product attribute combinations). For correct synchronization, you have to fill in SKUs for products and combinations.<br />
                         <br />
                         It's recommneded to keep the number of items in the product library below 10,000.<br />
                         <br />

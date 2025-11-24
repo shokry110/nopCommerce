@@ -1,18 +1,81 @@
 services:
-    nopcommerce_web:
+    sarayetel_web:
         build: .
-        container_name: nopcommerce
-        ports:
-            - "80:80"
+        container_name: sarayetel_web
         depends_on:
-            - nopcommerce_database
-    nopcommerce_database:
-        image: "mcr.microsoft.com/mssql/server:2019-latest"
-        container_name: nopcommerce_mssql_server
+            sarayetel_sql:
+                condition: service_healthy
+            sarayetel_redis:
+                condition: service_started
         environment:
-            SA_PASSWORD: "nopCommerce_db_password"
+            ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT:-Production}
+            ConnectionStrings__ConnectionString: ${NOP_PG_CONNECTION_STRING}
+            ConnectionStrings__DataProvider: postgresql
+            ConnectionStrings__DefaultConnection: ${NOP_PG_CONNECTION_STRING}
+            DistributedCacheConfig__Enabled: "true"
+            DistributedCacheConfig__DistributedCacheType: ${NOP_DISTRIBUTED_CACHE_TYPE:-redis}
+            DistributedCacheConfig__ConnectionString: ${NOP_REDIS_CONNECTION_STRING:-sarayetel_redis:6379,ssl=False,abortConnect=False}
+            DistributedCacheConfig__InstanceName: ${NOP_REDIS_INSTANCE_NAME:-sarayetel}
+        ports:
+            - "8080:80"
+        restart: unless-stopped
+        volumes:
+            - app_data:/app/App_Data
+            - logs:/app/logs
+            - plugins:/app/Plugins
+            - wwwroot:/app/wwwroot
+
+    sarayetel_sql:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        container_name: sarayetel_sql
+        environment:
+            SA_PASSWORD: ${NOP_SQL_SA_PASSWORD}
             ACCEPT_EULA: "Y"
             MSSQL_PID: "Express"
+        healthcheck:
+            test: ["CMD", "/opt/mssql-tools18/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "${NOP_SQL_SA_PASSWORD}", "-C", "-Q", "SELECT 1"]
+            interval: 10s
+            timeout: 5s
+            retries: 10
+        ports:
+            - "1433:1433"
+        restart: unless-stopped
+        volumes:
+            - mssql_data:/var/opt/mssql
+
+    sarayetel_postgres:
+        image: postgres:16-alpine
+        container_name: sarayetel_postgres
+        environment:
+            POSTGRES_USER: ${NOP_PG_USER:-sarayetel}
+            POSTGRES_PASSWORD: ${NOP_PG_PASSWORD}
+            POSTGRES_DB: ${NOP_PG_DATABASE:-sarayetel}
+        healthcheck:
+            test: ["CMD-SHELL", "pg_isready -U ${NOP_PG_USER:-sarayetel}"]
+            interval: 10s
+            timeout: 5s
+            retries: 10
+        ports:
+            - "5432:5432"
+        restart: unless-stopped
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+
+    sarayetel_redis:
+        image: redis:7.4-alpine
+        container_name: sarayetel_redis
+        command: redis-server --save 60 1000 --loglevel warning
+        ports:
+            - "6379:6379"
+        restart: unless-stopped
+        volumes:
+            - redis_data:/data
 
 volumes:
-  nopcommerce_data:            
+    app_data:
+    logs:
+    plugins:
+    wwwroot:
+    mssql_data:
+    redis_data:
+    postgres_data:

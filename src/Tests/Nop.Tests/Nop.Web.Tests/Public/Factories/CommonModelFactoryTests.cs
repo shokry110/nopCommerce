@@ -150,7 +150,7 @@ public class CommonModelFactoryTests : BaseNopTest
         var model = await _commonModelFactory.PrepareFooterModelAsync();
 
         model.StoreName.Should().Be("Your store name");
-        model.HidePoweredByNopCommerce.Should().Be(_storeInformationSettings.HidePoweredByNopCommerce);
+        model.HidePoweredBysarayetel.Should().Be(_storeInformationSettings.HidePoweredBysarayetel);
     }
 
     [Test]

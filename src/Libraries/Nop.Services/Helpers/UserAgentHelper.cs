@@ -93,7 +93,7 @@ public partial class UserAgentHelper : IUserAgentHelper
             return false;
 
         //we put required logic in try-catch block
-        //more info: https://www.nopcommerce.com/boards/topic/17711/unhandled-exception-request-is-not-available-in-this-context
+        //more info: https://www.sarayetel.com/boards/topic/17711/unhandled-exception-request-is-not-available-in-this-context
         try
         {
             var browscapXmlHelper = GetBrowscapXmlHelper();
@@ -123,7 +123,7 @@ public partial class UserAgentHelper : IUserAgentHelper
             return false;
 
         //we put required logic in try-catch block
-        //more info: https://www.nopcommerce.com/boards/topic/17711/unhandled-exception-request-is-not-available-in-this-context
+        //more info: https://www.sarayetel.com/boards/topic/17711/unhandled-exception-request-is-not-available-in-this-context
         try
         {
             //we don't parse browscap library here

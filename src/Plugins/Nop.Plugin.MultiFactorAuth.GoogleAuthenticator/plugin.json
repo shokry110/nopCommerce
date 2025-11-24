@@ -4,7 +4,7 @@
   "SystemName": "MultiFactorAuth.GoogleAuthenticator",
   "Version": "4.90.2",
   "SupportedVersions": [ "4.90" ],
-  "Author": "nopCommerce team",
+  "Author": "sarayetel team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.MultiFactorAuth.GoogleAuthenticator.dll",
   "Description": "Google Authenticator is a software-based authenticator by Google that implements two-step verification services, for authenticating users"

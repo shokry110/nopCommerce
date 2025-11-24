@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 3.70 to 3.80
+﻿--upgrade scripts from sarayetel 3.70 to 3.80
 
 --new locale resources
 declare @resources xml
@@ -3181,28 +3181,28 @@ AS
 BEGIN
 	--create catalog
 	EXEC('
-	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_catalogs WHERE [name] = ''nopCommerceFullTextCatalog'')
-		CREATE FULLTEXT CATALOG [nopCommerceFullTextCatalog] AS DEFAULT')
+	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_catalogs WHERE [name] = ''sarayetelFullTextCatalog'')
+		CREATE FULLTEXT CATALOG [sarayetelFullTextCatalog] AS DEFAULT')
 	
 	--create indexes
 	DECLARE @create_index_text nvarchar(4000)
 	SET @create_index_text = '
 	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_indexes WHERE object_id = object_id(''[Product]''))
 		CREATE FULLTEXT INDEX ON [Product]([Name], [ShortDescription], [FullDescription])
-		KEY INDEX [' + dbo.[nop_getprimarykey_indexname] ('Product') +  '] ON [nopCommerceFullTextCatalog] WITH CHANGE_TRACKING AUTO'
+		KEY INDEX [' + dbo.[nop_getprimarykey_indexname] ('Product') +  '] ON [sarayetelFullTextCatalog] WITH CHANGE_TRACKING AUTO'
 	EXEC(@create_index_text)
 	
 
 	SET @create_index_text = '
 	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_indexes WHERE object_id = object_id(''[LocalizedProperty]''))
 		CREATE FULLTEXT INDEX ON [LocalizedProperty]([LocaleValue])
-		KEY INDEX [' + dbo.[nop_getprimarykey_indexname] ('LocalizedProperty') +  '] ON [nopCommerceFullTextCatalog] WITH CHANGE_TRACKING AUTO'
+		KEY INDEX [' + dbo.[nop_getprimarykey_indexname] ('LocalizedProperty') +  '] ON [sarayetelFullTextCatalog] WITH CHANGE_TRACKING AUTO'
 	EXEC(@create_index_text)
 
 	SET @create_index_text = '
 	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_indexes WHERE object_id = object_id(''[ProductTag]''))
 		CREATE FULLTEXT INDEX ON [ProductTag]([Name])
-		KEY INDEX [' + dbo.[nop_getprimarykey_indexname] ('ProductTag') +  '] ON [nopCommerceFullTextCatalog] WITH CHANGE_TRACKING AUTO'
+		KEY INDEX [' + dbo.[nop_getprimarykey_indexname] ('ProductTag') +  '] ON [sarayetelFullTextCatalog] WITH CHANGE_TRACKING AUTO'
 	EXEC(@create_index_text)
 END
 GO

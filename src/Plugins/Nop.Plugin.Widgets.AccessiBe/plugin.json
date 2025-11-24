@@ -4,7 +4,7 @@
   "SystemName": "Widgets.AccessiBe",
   "Version": "4.90.2",
   "SupportedVersions": [ "4.90" ],
-  "Author": "nopCommerce team",
+  "Author": "sarayetel team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Widgets.AccessiBe.dll",
   "Description": "This plugin integrates with accessiBe - The #1 Fully Automated Web Accessibility Solution for ADA & WCAG Compliance"

@@ -3,7 +3,7 @@
 namespace Nop.Web.Framework.Models;
 
 /// <summary>
-/// Represents base nopCommerce model
+/// Represents base sarayetel model
 /// </summary>
 public partial record BaseNopModel
 {

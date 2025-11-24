@@ -20,7 +20,7 @@ public partial class MemoryCacheManager : CacheKeyService, IStaticCacheManager
     protected readonly IMemoryCache _memoryCache;
 
     /// <summary>
-    /// Holds the keys known by this nopCommerce instance
+    /// Holds the keys known by this sarayetel instance
     /// </summary>
     protected readonly ICacheKeyManager _keyManager;
 

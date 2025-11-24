@@ -11,7 +11,7 @@ public partial class InstallationConfig : IConfig
     public bool DisableSampleData { get; protected set; } = false;
 
     /// <summary>
-    /// Gets or sets a list of plugins ignored during nopCommerce installation
+    /// Gets or sets a list of plugins ignored during sarayetel installation
     /// </summary>
     public string DisabledPlugins { get; protected set; } = "Misc.AzureBlob,Misc.CloudflareImages";
 

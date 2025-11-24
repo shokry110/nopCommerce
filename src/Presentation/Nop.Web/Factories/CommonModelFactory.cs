@@ -421,7 +421,7 @@ public partial class CommonModelFactory : ICommonModelFactory
         return new FooterModel
         {
             StoreName = await _localizationService.GetLocalizedAsync(await _storeContext.GetCurrentStoreAsync(), x => x.Name),
-            HidePoweredByNopCommerce = _storeInformationSettings.HidePoweredByNopCommerce,
+            HidePoweredBysarayetel = _storeInformationSettings.HidePoweredBysarayetel,
             DisplayTaxShippingInfoFooter = _catalogSettings.DisplayTaxShippingInfoFooter,
             IsHomePage = await IsHomePageAsync()
         };

@@ -154,7 +154,7 @@ public static partial class ApplicationPartManagerExtensions
         if (string.IsNullOrEmpty(assemblyFile) ||
             string.IsNullOrEmpty(fileProvider.GetParentDirectory(assemblyFile)))
             throw new InvalidOperationException(
-                $"The plugin directory for the {fileProvider.GetFileName(assemblyFile)} file exists in a directory outside of the allowed nopCommerce directory hierarchy");
+                $"The plugin directory for the {fileProvider.GetFileName(assemblyFile)} file exists in a directory outside of the allowed sarayetel directory hierarchy");
 
         var assembly =
             AddApplicationParts(applicationPartManager, assemblyFile, pluginConfig.UseUnsafeLoadAssembly);

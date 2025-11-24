@@ -38,7 +38,7 @@ public partial class PluginDescriptor : PluginDescriptorBaseInfo, IDescriptor, I
         //get plugin descriptor from the JSON file
         var descriptor = JsonConvert.DeserializeObject<PluginDescriptor>(text);
 
-        //nopCommerce 2.00 didn't have 'SupportedVersions' parameter, so let's set it to "2.00"
+        //sarayetel 2.00 didn't have 'SupportedVersions' parameter, so let's set it to "2.00"
         if (!descriptor.SupportedVersions.Any())
             descriptor.SupportedVersions.Add("2.00");
 
@@ -125,7 +125,7 @@ public partial class PluginDescriptor : PluginDescriptorBaseInfo, IDescriptor, I
     public virtual string FriendlyName { get; set; }
 
     /// <summary>
-    /// Gets or sets the supported versions of nopCommerce
+    /// Gets or sets the supported versions of sarayetel
     /// </summary>
     [JsonProperty(PropertyName = "SupportedVersions")]
     public virtual IList<string> SupportedVersions { get; set; }

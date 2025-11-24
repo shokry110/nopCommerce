@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 4.20 to 4.30
+﻿--upgrade scripts from sarayetel 4.20 to 4.30
 --new locale resources
 declare @resources xml
 --a resource will be deleted if its value is empty
@@ -143,14 +143,14 @@ set @resources='
     <Value>
         <![CDATA[
             <div style="margin: 0 0 10px;">
-                <em><b>Warning: Square sandbox data has been changed. For more information visit our <a href="https://docs.nopcommerce.com/user-guide/configuring/settingup/payments/methods/square.html" target="_blank">documentation</a>.</em></b><br />
+                <em><b>Warning: Square sandbox data has been changed. For more information visit our <a href="https://docs.sarayetel.com/user-guide/configuring/settingup/payments/methods/square.html" target="_blank">documentation</a>.</em></b><br />
                 <br />
                 For plugin configuration, follow these steps:<br />
                 <br />
-                1. You will need a Square Merchant account. If you don''t already have one, you can sign up here: <a href="http://squ.re/nopcommerce" target="_blank">https://squareup.com/signup/</a><br />
+                1. You will need a Square Merchant account. If you don''t already have one, you can sign up here: <a href="http://squ.re/sarayetel" target="_blank">https://squareup.com/signup/</a><br />
                 2. Sign in to ''Square Merchant Dashboard''. Go to ''Account & Settings'' &#8594; ''Locations'' tab and create new location.<br />
                 <em>   Important: Your merchant account must have at least one location with enabled credit card processing. Please refer to the Square customer support if you have any questions about how to set this up.</em><br />
-                3. Sign in to your ''Square Developer Dashboard'' at <a href="http://squ.re/nopcommerce1" target="_blank">https://connect.squareup.com/apps</a>; use the same login credentials as your merchant account.<br />
+                3. Sign in to your ''Square Developer Dashboard'' at <a href="http://squ.re/sarayetel1" target="_blank">https://connect.squareup.com/apps</a>; use the same login credentials as your merchant account.<br />
                 4. Click on ''Create Your First Application'' and fill in the ''Application Name''. This name is for you to recognize the application in the developer portal and is not used by the plugin. Click ''Create Application'' at the bottom of the page.<br />
                 5. Now you are on the details page of the previously created application. On the ''Credentials'' tab click on the ''Change Version'' button and choose ''2019-09-25''.<br />
                 6. Make sure you uncheck ''Use sandbox'' below.<br />
@@ -203,22 +203,22 @@ set @resources='
     <Value>Check if ''Last name'' is required.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Payment.Methods.DownloadMorePlugins">
-    <Value><![CDATA[You can download more plugins in our <a href="https://www.nopcommerce.com/extensions?category=payment-modules&utm_source=admin-panel&utm_medium=payment-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can download more plugins in our <a href="https://www.sarayetel.com/extensions?category=payment-modules&utm_source=admin-panel&utm_medium=payment-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description.DownloadMorePlugins">
-    <Value><![CDATA[You can download more nopCommerce plugins in our <a href="https://www.nopcommerce.com/marketplace?utm_source=admin-panel&utm_medium=plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can download more sarayetel plugins in our <a href="https://www.sarayetel.com/marketplace?utm_source=admin-panel&utm_medium=plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Instructions">
-    <Value><![CDATA[Here you can find third-party extensions and themes which are developed by our community and partners. They are also available in our <a href="https://www.nopcommerce.com/marketplace?utm_source=admin-panel&utm_medium=official-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[Here you can find third-party extensions and themes which are developed by our community and partners. They are also available in our <a href="https://www.sarayetel.com/marketplace?utm_source=admin-panel&utm_medium=official-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme.GetMore">
-    <Value><![CDATA[You can get more themes in our <a href="https://www.nopcommerce.com/themes?utm_source=admin-panel&utm_medium=theme-settings&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can get more themes in our <a href="https://www.sarayetel.com/themes?utm_source=admin-panel&utm_medium=theme-settings&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Providers.DownloadMorePlugins">
-    <Value><![CDATA[You can download more plugins in our <a href="https://www.nopcommerce.com/extensions?category=shipping-delivery&utm_source=admin-panel&utm_medium=shipping-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can download more plugins in our <a href="https://www.sarayetel.com/extensions?category=shipping-delivery&utm_source=admin-panel&utm_medium=shipping-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Tax.Providers.DownloadMorePlugins">
-    <Value><![CDATA[You can download more plugins in our <a href="https://www.nopcommerce.com/extensions?category=taxes&utm_source=admin-panel&utm_medium=tax-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can download more plugins in our <a href="https://www.sarayetel.com/extensions?category=taxes&utm_source=admin-panel&utm_medium=tax-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Microdata">
     <Value>Microdata tags</Value>

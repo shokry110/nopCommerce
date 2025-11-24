@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 3.20 to 3.30
+﻿--upgrade scripts from sarayetel 3.20 to 3.30
 
 --new locale resources
 declare @resources xml

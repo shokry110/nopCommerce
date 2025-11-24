@@ -61,7 +61,7 @@ namespace Nop.Tests {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to server=127.0.0.1;database=nopcommerce;allowuservariables=True;user id=root;password=!pass@word123.
+        ///   Looks up a localized string similar to server=127.0.0.1;database=sarayetel;allowuservariables=True;user id=root;password=!pass@word123.
         /// </summary>
         internal static string MySql_server_connection_string {
             get {
@@ -70,7 +70,7 @@ namespace Nop.Tests {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Host=127.0.0.1;Database=nopcommerce;Username=postgres;Password=!pass@word123.
+        ///   Looks up a localized string similar to Host=127.0.0.1;Database=sarayetel;Username=postgres;Password=!pass@word123.
         /// </summary>
         internal static string PostgreSql_server_connection_string {
             get {

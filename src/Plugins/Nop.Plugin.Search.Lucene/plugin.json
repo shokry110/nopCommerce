@@ -4,7 +4,7 @@
   "SystemName": "Search.Lucene",
   "Version": "4.90.1",
   "SupportedVersions": [ "4.90" ],
-  "Author": "nopCommerce team",
+  "Author": "sarayetel team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Search.Lucene.dll",
   "Description": "This plugin provides full-text product search using the Lucene search engine"

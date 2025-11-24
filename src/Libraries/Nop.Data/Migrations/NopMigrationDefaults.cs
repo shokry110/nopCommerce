@@ -13,9 +13,9 @@ public static partial class NopMigrationDefaults
     /// <summary>
     /// Gets the format string to create the description of update migration
     /// <remarks>
-    /// 0 - nopCommerce version
+    /// 0 - sarayetel version
     /// 1 - update migration type
     /// </remarks>
     /// </summary>
-    public static string UpdateMigrationDescription => "nopCommerce version {0}. Update {1}";
+    public static string UpdateMigrationDescription => "sarayetel version {0}. Update {1}";
 }

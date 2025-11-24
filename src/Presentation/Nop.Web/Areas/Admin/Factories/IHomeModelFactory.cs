@@ -59,13 +59,13 @@ public partial interface IHomeModelFactory
     Task<DataTablesModel> PrepareLatestOrdersModelAsync(DataTablesModel model);
 
     /// <summary>
-    /// Prepare nopCommerce news model
+    /// Prepare sarayetel news model
     /// </summary>
     /// <returns>
     /// A task that represents the asynchronous operation
-    /// The task result contains the nopCommerce news model
+    /// The task result contains the sarayetel news model
     /// </returns>
-    Task<NopCommerceNewsModel> PrepareNopCommerceNewsModelAsync();
+    Task<sarayetelNewsModel> PreparesarayetelNewsModelAsync();
 
     /// <summary>
     /// Prepare incomplete orders report model

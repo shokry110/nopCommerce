@@ -67,10 +67,10 @@
     <Value>Selecteer de data provider</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Als u informatie nodig heeft over hoe nopCommerce te gebruiken, bezoek</Value>
+    <Value>Als u informatie nodig heeft over hoe sarayetel te gebruiken, bezoek</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>de Documentatie sectie op nopCommerce.com</Value>
+    <Value>de Documentatie sectie op sarayetel.com</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Voorbeeld</Value>
@@ -79,7 +79,7 @@
     <Value>Installeer</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>nopCommerce installeren...</Value>
+    <Value>sarayetel installeren...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>Gebruik geïntegreerde Windows authenticatie</Value>
@@ -133,12 +133,12 @@
     <Value>Webshop informatie</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Abonneer op de nopCommerce nieuwsbrief</Value>
+    <Value>Abonneer op de sarayetel nieuwsbrief</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce installatie</Value>
+    <Value>sarayetel installatie</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
-    <Value>Om deze wizard volledig en succesvol te doorlopen, heeft u wat informatie over uw database nodig (de "connectie string"). Indien nodig, neem contact hierover op met uw ISP. Als u nopCommerce op een lokaal systeem installeert, heeft u wellicht informatie van uw Systeembeheerder nodig.</Value>
+    <Value>Om deze wizard volledig en succesvol te doorlopen, heeft u wat informatie over uw database nodig (de "connectie string"). Indien nodig, neem contact hierover op met uw ISP. Als u sarayetel op een lokaal systeem installeert, heeft u wellicht informatie van uw Systeembeheerder nodig.</Value>
   </LocaleResource>
 </Language>

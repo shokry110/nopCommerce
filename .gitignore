@@ -161,9 +161,12 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
+# Local environment overrides
+.env
+
 
 #######################
-## nopCommerce specific
+## sarayetel specific
 ###########
 glob:*.user
 *.patch

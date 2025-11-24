@@ -67,10 +67,10 @@
     <Value>選擇數據提供者</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>如果您需要瞭解怎麽使用nopCommerce，請訪問</Value>
+    <Value>如果您需要瞭解怎麽使用sarayetel，請訪問</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>文檔位於nopCommerce.com</Value>
+    <Value>文檔位於sarayetel.com</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>範例</Value>
@@ -79,7 +79,7 @@
     <Value>安裝</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>安裝nopCommerce中...</Value>
+    <Value>安裝sarayetel中...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>使用集成的Windows身份驗證</Value>
@@ -133,10 +133,10 @@
     <Value>商店資訊</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Subscribe to nopCommerce newsletter</Value>
+    <Value>Subscribe to sarayetel newsletter</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce安裝</Value>
+    <Value>sarayetel安裝</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>要完成此嚮導，您必須了解一些有關數據庫服務器的信息（“連接字符串”）。 如有必要，請聯繫您的ISP。 如果要在本地計算機或服務器上進行安裝，則可能需要係統管理員提供的信息。</Value>

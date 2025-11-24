@@ -178,7 +178,7 @@ public partial class BaseNopTest
         webHostEnvironment.Setup(p => p.WebRootPath).Returns(Path.Combine(rootPath, "wwwroot"));
         webHostEnvironment.Setup(p => p.ContentRootPath).Returns(rootPath);
         webHostEnvironment.Setup(p => p.EnvironmentName).Returns("test");
-        webHostEnvironment.Setup(p => p.ApplicationName).Returns("nopCommerce");
+        webHostEnvironment.Setup(p => p.ApplicationName).Returns("sarayetel");
         services.AddSingleton(webHostEnvironment.Object);
 
         var htmlHelper = new Mock<IHtmlHelper>();
@@ -599,7 +599,7 @@ public partial class BaseNopTest
                     dataConfig.ConnectionString = _resourceManager.GetString("PostgreSql server connection string");
                     break;
                 case DataProviderType.Unknown:
-                    dataConfig.ConnectionString = "Data Source=nopCommerceTest.sqlite;Mode=Memory;Cache=Shared";
+                    dataConfig.ConnectionString = "Data Source=sarayetelTest.sqlite;Mode=Memory;Cache=Shared";
                     break;
             }
         }

@@ -1,0 +1,37 @@
+/*
+   Sarayetel RTL overrides
+   Extend this file as localization progresses. Only add rules that differ from DefaultClean to keep maintenance easy.
+*/
+
+:root {
+  font-family: "Vazirmatn", "Tajawal", "IRANSans", "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+  direction: rtl;
+  text-align: end;
+}
+
+.header-middle, .header-links, .footer-upper, .footer-lower {
+  flex-direction: row-reverse;
+}
+
+.navbar-nav > li {
+  margin-inline: 0 1rem;
+}
+
+.product-list .item-box, .product-grid .item-box {
+  text-align: end;
+}
+
+.breadcrumb {
+  flex-direction: row-reverse;
+}
+
+.breadcrumb li:after {
+  transform: rotate(180deg);
+}
+
+input, textarea {
+  text-align: end;
+}

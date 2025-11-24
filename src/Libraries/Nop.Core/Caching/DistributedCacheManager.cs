@@ -14,7 +14,7 @@ public abstract class DistributedCacheManager : CacheKeyService, IStaticCacheMan
     #region Fields
 
     /// <summary>
-    /// Holds the keys known by this nopCommerce instance
+    /// Holds the keys known by this sarayetel instance
     /// </summary>
     protected readonly ICacheKeyManager _localKeyManager;
     protected readonly IDistributedCache _distributedCache;

@@ -1382,7 +1382,7 @@ public partial class InstallationService
             CategoryBreadcrumbEnabled = true,
             ShowShareButton = true,
             PageShareCode =
-                "<!-- ShareThis Button BEGIN --><div class=\"sharethis-inline-share-buttons\"></div><script type=\"text/javascript\" src=\"https://platform-api.sharethis.com/js/sharethis.js#property=64428a0865e28d00193ae8a9&product=inline-share-buttons&source=nopcommerce\" async=\"async\"></script><!-- ShareThis Button END -->",
+                "<!-- ShareThis Button BEGIN --><div class=\"sharethis-inline-share-buttons\"></div><script type=\"text/javascript\" src=\"https://platform-api.sharethis.com/js/sharethis.js#property=64428a0865e28d00193ae8a9&product=inline-share-buttons&source=sarayetel\" async=\"async\"></script><!-- ShareThis Button END -->",
             ProductReviewsMustBeApproved = false,
             OneReviewPerProductFromCustomer = false,
             DefaultProductRatingValue = 5,
@@ -1649,11 +1649,11 @@ public partial class InstallationService
             DefaultStoreTheme = "DefaultClean",
             AllowCustomerToSelectTheme = false,
             DisplayEuCookieLawWarning = isEurope,
-            FacebookLink = "https://www.facebook.com/nopCommerce",
-            TwitterLink = "https://twitter.com/nopCommerce",
-            YoutubeLink = "https://www.youtube.com/user/nopCommerce",
-            InstagramLink = "https://www.instagram.com/nopcommerce_official",
-            HidePoweredByNopCommerce = false
+            FacebookLink = "https://www.facebook.com/sarayetel",
+            TwitterLink = "https://twitter.com/sarayetel",
+            YoutubeLink = "https://www.youtube.com/user/sarayetel",
+            InstagramLink = "https://www.instagram.com/sarayetel_official",
+            HidePoweredBysarayetel = false
         });
 
         await SaveSettingAsync(dictionary, new ExternalAuthenticationSettings
@@ -2344,7 +2344,7 @@ public partial class InstallationService
                     Published = true,
                     Title = "Welcome to our store",
                     Body =
-                        "<p>Online shopping is the process consumers go through to purchase products or services over the Internet. You can edit this in the admin site.</p><p>If you have questions, see the <a href=\"http://docs.nopcommerce.com/\">Documentation</a>, or post in the <a href=\"https://www.nopcommerce.com/boards/\">Forums</a> at <a href=\"https://www.nopcommerce.com\">nopCommerce.com</a></p>",
+                        "<p>Online shopping is the process consumers go through to purchase products or services over the Internet. You can edit this in the admin site.</p><p>If you have questions, see the <a href=\"http://docs.sarayetel.com/\">Documentation</a>, or post in the <a href=\"https://www.sarayetel.com/boards/\">Forums</a> at <a href=\"https://www.sarayetel.com\">sarayetel.com</a></p>",
                     TopicTemplateId = defaultTopicTemplate.Id
                 },
                 new() {

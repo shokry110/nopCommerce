@@ -1,6 +1,6 @@
 ﻿Steps:
 1. Backup your existing database
-2. Install nopCommerce 2.00 to your existing database (1.90).
+2. Install sarayetel 2.00 to your existing database (1.90).
 	IMPORTANT NOTE: Install it without sample data!!!
 3. Backup your existing database (again)
 4. Execute upgrade.sql script over your database

@@ -13,9 +13,9 @@ public class FacebookPixelDefaults
     public static string SystemName => "Widgets.FacebookPixel";
 
     /// <summary>
-    /// Gets the nopCommerce agent ID
+    /// Gets the sarayetel agent ID
     /// </summary>
-    public static string AgentId => "plnopcommerce";
+    public static string AgentId => "plsarayetel";
 
     /// <summary>
     /// Gets the configuration route name

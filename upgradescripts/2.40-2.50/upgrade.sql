@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 2.40 to nopCommerce 2.50
+﻿--upgrade scripts from sarayetel 2.40 to sarayetel 2.50
 
 --new locale resources
 declare @resources xml
@@ -141,7 +141,7 @@ set @resources='
     <Value>Manual plugin installation</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description.Step1">
-    <Value>Upload the plugin to the /plugins folder in your nopCommerce directory.</Value>
+    <Value>Upload the plugin to the /plugins folder in your sarayetel directory.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description.Step2">
     <Value>Restart your application (or click ''Reload list of plugins'' button).</Value>
@@ -153,7 +153,7 @@ set @resources='
     <Value>Click on the ''Install'' link to install the plugin.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description.Step5">
-    <Value>Note: If you''re running nopCommerce in medium trust, then it''s recommended to clear your \Plugins\bin\ directory</Value>
+    <Value>Note: If you''re running sarayetel in medium trust, then it''s recommended to clear your \Plugins\bin\ directory</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Editing">
     <Value>Editing</Value>

@@ -67,10 +67,10 @@
     <Value>Виберіть постачальника даних</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Якщо вам потрібна інформація про налаштування та використання nopCommerce, відвідайте</Value>
+    <Value>Якщо вам потрібна інформація про налаштування та використання sarayetel, відвідайте</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>розділ документації на сайті nopCommerce.com</Value>
+    <Value>розділ документації на сайті sarayetel.com</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Зразок</Value>
@@ -79,7 +79,7 @@
     <Value>Встановити</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>Встановлення nopCommerce...</Value>
+    <Value>Встановлення sarayetel...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>Використовувати інтегровану автентифікацію Windows</Value>
@@ -133,10 +133,10 @@
     <Value>Інформація про магазин</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Підписатися на розсилку новин nopCommerce</Value>
+    <Value>Підписатися на розсилку новин sarayetel</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>Встановлення nopCommerce</Value>
+    <Value>Встановлення sarayetel</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>Для завершення майстра встановлення ви повинні знати рядок підключення до вашої бази даних. Будь ласка, зв'яжіться з вашим провайдером, якщо це необхідно. Якщо ви встановлюєте на локальному комп'ютері або сервері, ви можете дізнатися його у вашого системного адміністратора.</Value>

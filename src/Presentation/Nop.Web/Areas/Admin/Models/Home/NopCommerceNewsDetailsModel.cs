@@ -3,9 +3,9 @@
 namespace Nop.Web.Areas.Admin.Models.Home;
 
 /// <summary>
-/// Represents a nopCommerce news details model
+/// Represents a sarayetel news details model
 /// </summary>
-public partial record NopCommerceNewsDetailsModel : BaseNopModel
+public partial record sarayetelNewsDetailsModel : BaseNopModel
 {
     #region Properties
 

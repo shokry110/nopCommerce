@@ -51,7 +51,7 @@ public partial class NopMigrationAttribute : MigrationAttribute
     /// Initializes a new instance of the NopMigrationAttribute class
     /// </summary>
     /// <param name="dateTime">The migration date time string to convert on version</param>
-    /// <param name="nopVersion">nopCommerce full version</param>
+    /// <param name="nopVersion">sarayetel full version</param>
     /// <param name="updateMigrationType">The update migration type</param>
     /// <param name="targetMigrationProcess">The target migration process</param>
     public NopMigrationAttribute(string dateTime, string nopVersion, UpdateMigrationType updateMigrationType, MigrationProcessType targetMigrationProcess = MigrationProcessType.NoMatter) :
@@ -126,7 +126,7 @@ public partial class NopMigrationAttribute : MigrationAttribute
         public string DateTime { get; set; }
 
         /// <summary>
-        /// nopCommerce full version
+        /// sarayetel full version
         /// </summary>
         public string NopVersion { get; set; }
 

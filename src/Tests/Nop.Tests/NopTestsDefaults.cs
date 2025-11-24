@@ -8,7 +8,7 @@ public static partial class NopTestsDefaults
     /// <summary>
     /// Gets the default admin email
     /// </summary>
-    public static string AdminEmail { get; } = "test@nopCommerce.com";
+    public static string AdminEmail { get; } = "test@sarayetel.com";
 
     /// <summary>
     /// Gets the default admin password

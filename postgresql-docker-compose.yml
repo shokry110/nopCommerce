@@ -1,17 +1,17 @@
 services:
-    nopcommerce_web:
+    sarayetel_web:
         build: .
-        container_name: nopcommerce
+        container_name: sarayetel
         ports:
             - "80:80"
         depends_on:
-            - nopcommerce_database
-    nopcommerce_database:
+            - sarayetel_database
+    sarayetel_database:
         image: "postgres:latest"
-        container_name: nopcommerce_postgres_server
+        container_name: sarayetel_postgres_server
         restart: "always"
         environment:
-          POSTGRES_PASSWORD: "nopCommerce_db_password"
+          POSTGRES_PASSWORD: "sarayetel_db_password"
 
 volumes:
-  nopcommerce_data:            
+  sarayetel_data:            

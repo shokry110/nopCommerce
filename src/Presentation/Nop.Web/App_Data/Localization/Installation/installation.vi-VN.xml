@@ -67,10 +67,10 @@
     <Value>Chọn bộ cấp dữ liệu</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Nếu bạn muốn tìm hiểu thêm về cách sử dụng nopCommerce, hãy ghé thăm</Value>
+    <Value>Nếu bạn muốn tìm hiểu thêm về cách sử dụng sarayetel, hãy ghé thăm</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>mục tài liệu trên trang nopCommerce.com</Value>
+    <Value>mục tài liệu trên trang sarayetel.com</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Ví dụ</Value>
@@ -133,7 +133,7 @@
     <Value>Thông tin website</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Đăng ký nhận bản tin của nopCommerce</Value>
+    <Value>Đăng ký nhận bản tin của sarayetel</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
     <Value>Cài đặt website</Value>

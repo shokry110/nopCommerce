@@ -104,9 +104,9 @@ public class WorkflowMessageServiceTests : ServiceTest
             IsGiftCardActivated = false,
             GiftCardCouponCode = string.Empty,
             RecipientName = "Brenda Lindgren",
-            RecipientEmail = "brenda_lindgren@nopCommerce.com",
+            RecipientEmail = "brenda_lindgren@sarayetel.com",
             SenderName = "Steve Gates",
-            SenderEmail = "steve_gates@nopCommerce.com",
+            SenderEmail = "steve_gates@sarayetel.com",
             Message = string.Empty,
             IsRecipientNotified = false,
             CreatedOnUtc = DateTime.UtcNow

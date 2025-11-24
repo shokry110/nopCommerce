@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 3.90 to 4.00
+﻿--upgrade scripts from sarayetel 3.90 to 4.00
 
 --new locale resources
 declare @resources xml
@@ -39,13 +39,13 @@ set @resources='
     <Value></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Instructions">
-    <Value><![CDATA[<p>Here you can find third-party extensions and themes which are developed by our community and partners.They are also available in our <a href="https://www.nopcommerce.com/marketplace.aspx?utm_source=admin-panel&utm_medium=official-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a></p>]]></Value>
+    <Value><![CDATA[<p>Here you can find third-party extensions and themes which are developed by our community and partners.They are also available in our <a href="https://www.sarayetel.com/marketplace.aspx?utm_source=admin-panel&utm_medium=official-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a></p>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Fields.SecureUrl.Hint">
-    <Value>The secure URL of your store e.g. https://www.yourstore.com/ or http://sharedssl.yourstore.com/. Leave it empty if you want nopCommerce to detect secure URL automatically.</Value>
+    <Value>The secure URL of your store e.g. https://www.yourstore.com/ or http://sharedssl.yourstore.com/. Leave it empty if you want sarayetel to detect secure URL automatically.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Captcha.Instructions">
-    <Value><![CDATA[<p>CAPTCHA is a program that can tell whether its user is a human or a computer. You''ve probably seen them — colorful images with distorted text at the bottom ofWeb registration forms. CAPTCHAs are used by many websites to prevent abuse from "bots" or automated programs usually written to generate spam. No computer programcan read distorted text as well as humans can, so bots cannot navigate sites protectedby CAPTCHAs. nopCommerce uses <a href="http://www.google.com/recaptcha" target="_blank">reCAPTCHA</a>.</p>]]></Value>
+    <Value><![CDATA[<p>CAPTCHA is a program that can tell whether its user is a human or a computer. You''ve probably seen them — colorful images with distorted text at the bottom ofWeb registration forms. CAPTCHAs are used by many websites to prevent abuse from "bots" or automated programs usually written to generate spam. No computer programcan read distorted text as well as humans can, so bots cannot navigate sites protectedby CAPTCHAs. sarayetel uses <a href="http://www.google.com/recaptcha" target="_blank">reCAPTCHA</a>.</p>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.Customer.EmailValidationMessage">
 	  <Value>This message template is used when Configuration - Settings - Customer settings - "Registration method" dropdownlist is set to "Email validation". The customer receives a message to confirm an email address used when registering.</Value>
@@ -102,7 +102,7 @@ set @resources='
     <Value><![CDATA[<p><b>If you''re using this gateway ensure that your primary store currency is supported by Paypal.</b><br /><br />To use PDT, you must activate PDT and Auto Return in your PayPal account profile. You must also acquire a PDT identity token, which is used in all PDT communication you send to PayPal. Follow these steps to configure your account for PDT:<br /><br />1. Log in to your PayPal account (click <a href="https://www.paypal.com/us/webapps/mpp/referral/paypal-business-account2?partner_id=9JJPJNNPQ7PZ8" target="_blank">here</a> to create your account).<br />2. Click the Profile subtab.<br />3. Click Website Payment Preferences in the Seller Preferences column.<br />4. Under Auto Return for Website Payments, click the On radio button.<br />5. For the Return URL, enter the URL on your site that will receive the transaction ID posted by PayPal after a customer payment ({0}).<br />6. Under Payment Data Transfer, click the On radio button.<br />7. Click Save.<br />8. Click Website Payment Preferences in the Seller Preferences column.<br />9. Scroll down to the Payment Data Transfer section of the page to view your PDT identity token.<br /><br /></p>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableCssBundling.Hint">
-    <Value>Enable to combine (bundle) multiple CSS files into a single file. Do not enable if you''re running nopCommerce in IIS virtual directory. Currently it doesn''t support web farms.</Value>
+    <Value>Enable to combine (bundle) multiple CSS files into a single file. Do not enable if you''re running sarayetel in IIS virtual directory. Currently it doesn''t support web farms.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableJsBundling.Hint">
     <Value>Enable to combine (bundle) multiple JavaScript files into a single file. Currently it doesn''t support web farms.</Value>
@@ -348,7 +348,7 @@ set @resources='
     <Value>Indicates whether to use rich editor on message templates and campaigns details pages.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableCssBundling.Hint">
-    <Value>Enable to combine (bundle) multiple CSS files into a single file. Do not enable if you''re running nopCommerce in IIS virtual directory. Currently it doesn''t support web farms. And please note it could take up to two minutes for changes to existing files to be applied (when enabled).</Value>
+    <Value>Enable to combine (bundle) multiple CSS files into a single file. Do not enable if you''re running sarayetel in IIS virtual directory. Currently it doesn''t support web farms. And please note it could take up to two minutes for changes to existing files to be applied (when enabled).</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableJsBundling.Hint">
     <Value>Enable to combine (bundle) multiple JavaScript files into a single file. Currently it doesn''t support web farms. And please note it could take up to two minutes for changes to existing files to be applied (when enabled).</Value>
@@ -390,22 +390,22 @@ set @resources='
     <Value></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Instructions">
-    <Value><![CDATA[Here you can find third-party extensions and themes which are developed by our community and partners. They are also available in our <a href="https://www.nopcommerce.com/marketplace.aspx?utm_source=admin-panel&utm_medium=official-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[Here you can find third-party extensions and themes which are developed by our community and partners. They are also available in our <a href="https://www.sarayetel.com/marketplace.aspx?utm_source=admin-panel&utm_medium=official-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme.GetMore">
-    <Value><![CDATA[You can get more themes in our <a href="https://www.nopcommerce.com/marketplace.aspx?category=4&utm_source=admin-panel&utm_medium=theme-settings&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can get more themes in our <a href="https://www.sarayetel.com/marketplace.aspx?category=4&utm_source=admin-panel&utm_medium=theme-settings&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Plugins.Description.DownloadMorePlugins">
-    <Value><![CDATA[You can download more nopCommerce plugins in our <a href="https://www.nopcommerce.com/marketplace.aspx?utm_source=admin-panel&utm_medium=plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can download more sarayetel plugins in our <a href="https://www.sarayetel.com/marketplace.aspx?utm_source=admin-panel&utm_medium=plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Payment.Methods.DownloadMorePlugins">
-    <Value><![CDATA[You can download more plugins in our <a href="https://www.nopcommerce.com/marketplace.aspx?category=2&utm_source=admin-panel&utm_medium=payment-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can download more plugins in our <a href="https://www.sarayetel.com/marketplace.aspx?category=2&utm_source=admin-panel&utm_medium=payment-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.Providers.DownloadMorePlugins">
-    <Value><![CDATA[You can download more plugins in our <a href="https://www.nopcommerce.com/marketplace.aspx?category=3&utm_source=admin-panel&utm_medium=shipping-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can download more plugins in our <a href="https://www.sarayetel.com/marketplace.aspx?category=3&utm_source=admin-panel&utm_medium=shipping-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Tax.Providers.DownloadMorePlugins">
-    <Value><![CDATA[You can download more plugins in our <a href="https://www.nopcommerce.com/marketplace.aspx?category=11&utm_source=admin-panel&utm_medium=tax-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
+    <Value><![CDATA[You can download more plugins in our <a href="https://www.sarayetel.com/marketplace.aspx?category=11&utm_source=admin-panel&utm_medium=tax-plugins&utm_campaign=admin-panel" target="_blank">marketplace</a>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Customers.Customers.SomeComment">
     <Value>Some comment here...</Value>

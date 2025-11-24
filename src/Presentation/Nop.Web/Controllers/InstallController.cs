@@ -283,7 +283,7 @@ public partial class InstallController : Controller
                 }
             }
 
-            //now resolve installation service and install nopCommerce
+            //now resolve installation service and install sarayetel
             await _installationService.Value.InstallAsync(new InstallationSettings
             {
                AdminEmail = model.AdminEmail,

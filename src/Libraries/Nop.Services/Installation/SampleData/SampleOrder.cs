@@ -328,7 +328,7 @@ public partial class SampleOrder
 
         /// <summary>
         /// Gets or sets the total weight of one item
-        /// It's nullable for compatibility with the previous version of nopCommerce where was no such property
+        /// It's nullable for compatibility with the previous version of sarayetel where was no such property
         /// </summary>
         public decimal? ItemWeight { get; set; }
 
@@ -360,7 +360,7 @@ public partial class SampleOrder
 
         /// <summary>
         /// Gets or sets the total weight of this shipment
-        /// It's nullable for compatibility with the previous version of nopCommerce where was no such property
+        /// It's nullable for compatibility with the previous version of sarayetel where was no such property
         /// </summary>
         public decimal? TotalWeight { get; set; }
 

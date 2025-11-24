@@ -40,8 +40,8 @@ public class LocalizationMigration : MigrationBase
             "Admin.Catalog.Products.Pictures.SaveBeforeEdit",
             "Admin.Catalog.Products.Pictures.AddButton",
 
-            "Admin.Configuration.AppSettings.Common.SupportPreviousNopcommerceVersions",
-            "Admin.Configuration.AppSettings.Common.SupportPreviousNopcommerceVersions.Hint",
+            "Admin.Configuration.AppSettings.Common.SupportPrevioussarayetelVersions",
+            "Admin.Configuration.AppSettings.Common.SupportPrevioussarayetelVersions.Hint",
             
             //4622
             "PDFInvoice.OrderDate",

@@ -91,7 +91,7 @@ public partial class HomeController : BaseAdminController
     }
 
     [HttpPost]
-    public virtual async Task<IActionResult> NopCommerceNewsHideAdv()
+    public virtual async Task<IActionResult> sarayetelNewsHideAdv()
     {
         _adminAreaSettings.HideAdvertisementsOnAdminArea = !_adminAreaSettings.HideAdvertisementsOnAdminArea;
         await _settingService.SaveSettingAsync(_adminAreaSettings);

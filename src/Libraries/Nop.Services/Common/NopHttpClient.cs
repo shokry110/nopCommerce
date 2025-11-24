@@ -11,7 +11,7 @@ using Nop.Services.Messages;
 namespace Nop.Services.Common;
 
 /// <summary>
-/// Represents the HTTP client to request nopCommerce official site
+/// Represents the HTTP client to request sarayetel official site
 /// </summary>
 public partial class NopHttpClient
 {
@@ -40,9 +40,9 @@ public partial class NopHttpClient
         IWorkContext workContext)
     {
         //configure client
-        client.BaseAddress = new Uri("https://www.nopcommerce.com/");
+        client.BaseAddress = new Uri("https://www.sarayetel.com/");
         client.Timeout = TimeSpan.FromSeconds(5);
-        client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, $"nopCommerce-{NopVersion.CURRENT_VERSION}");
+        client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, $"sarayetel-{NopVersion.CURRENT_VERSION}");
 
         _adminAreaSettings = adminAreaSettings;
         _emailAccountSettings = emailAccountSettings;
@@ -178,7 +178,7 @@ public partial class NopHttpClient
     }
 
     /// <summary>
-    /// Subscribe to nopCommerce newsletters during installation
+    /// Subscribe to sarayetel newsletters during installation
     /// </summary>
     /// <param name="email">Admin email</param>
     /// <returns>

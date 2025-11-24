@@ -4,7 +4,7 @@
   "SystemName": "Pickup.PickupInStore",
   "Version": "4.90.1",
   "SupportedVersions": [ "4.90" ],
-  "Author": "nopCommerce team",
+  "Author": "sarayetel team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Pickup.PickupInStore.dll",
   "Description": "This plugin allows to configure and manage pickup points when \"Pickup in store\" option is enabled"

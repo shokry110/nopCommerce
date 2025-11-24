@@ -15,17 +15,17 @@ public class ZettleDefaults
     /// <summary>
     /// Gets the user agent used to request third-party services
     /// </summary>
-    public static string UserAgent => $"nopCommerce-{NopVersion.CURRENT_VERSION}";
+    public static string UserAgent => $"sarayetel-{NopVersion.CURRENT_VERSION}";
 
     /// <summary>
     /// Gets the application name
     /// </summary>
-    public static string ApplicationName => "nopCommerce-integration";
+    public static string ApplicationName => "sarayetel-integration";
 
     /// <summary>
     /// Gets the partner identifier
     /// </summary>
-    public static string PartnerIdentifier => "nopCommerce";
+    public static string PartnerIdentifier => "sarayetel";
 
     /// <summary>
     /// Gets the partner affiliation header used for each request to APIs

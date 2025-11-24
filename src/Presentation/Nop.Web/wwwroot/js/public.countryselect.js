@@ -1,5 +1,5 @@
 ﻿/*
-** nopCommerce country select js functions
+** sarayetel country select js functions
 */
 +function ($) {
     'use strict';

@@ -134,7 +134,7 @@ public class BrevoPlugin : BasePlugin, IMiscPlugin, IWidgetPlugin
         {
             ["Plugins.Misc.Brevo.AccountInfo"] = "Account info",
             ["Plugins.Misc.Brevo.AccountInfo.Hint"] = "Display account information.",
-            ["Plugins.Misc.Brevo.ActivateSMTP"] = "On your Brevo account, the SMTP has not been enabled yet. To request its activation, simply send an email to our support team at contact@brevo.com and mention that you will be using the SMTP with the nopCommerce plugin.",
+            ["Plugins.Misc.Brevo.ActivateSMTP"] = "On your Brevo account, the SMTP has not been enabled yet. To request its activation, simply send an email to our support team at contact@brevo.com and mention that you will be using the SMTP with the sarayetel plugin.",
             ["Plugins.Misc.Brevo.AddNewSMSNotification"] = "Add new SMS notification",
             ["Plugins.Misc.Brevo.BillingAddressPhone"] = "Billing address phone number",
             ["Plugins.Misc.Brevo.CustomerPhone"] = "Customer phone number",
@@ -150,7 +150,7 @@ public class BrevoPlugin : BasePlugin, IMiscPlugin, IWidgetPlugin
             ["Plugins.Misc.Brevo.Fields.CampaignText"] = "Text",
             ["Plugins.Misc.Brevo.Fields.CampaignText.Hint"] = "Specify SMS campaign content. The number of characters is limited to 160 for one message.",
             ["Plugins.Misc.Brevo.Fields.List"] = "List",
-            ["Plugins.Misc.Brevo.Fields.List.Hint"] = "Select the Brevo list where your nopCommerce newsletter subscribers will be added.",
+            ["Plugins.Misc.Brevo.Fields.List.Hint"] = "Select the Brevo list where your sarayetel newsletter subscribers will be added.",
             ["Plugins.Misc.Brevo.Fields.MaKey"] = "Tracker ID",
             ["Plugins.Misc.Brevo.Fields.MaKey.Hint"] = "Input your Tracker ID.",
             ["Plugins.Misc.Brevo.Fields.Sender"] = "Send emails from",

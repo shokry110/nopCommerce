@@ -346,15 +346,15 @@ public partial class HomeModelFactory : IHomeModelFactory
     }
 
     /// <summary>
-    /// Prepare nopCommerce news model
+    /// Prepare sarayetel news model
     /// </summary>
     /// <returns>
     /// A task that represents the asynchronous operation
-    /// The task result contains the nopCommerce news model
+    /// The task result contains the sarayetel news model
     /// </returns>
-    public virtual async Task<NopCommerceNewsModel> PrepareNopCommerceNewsModelAsync()
+    public virtual async Task<sarayetelNewsModel> PreparesarayetelNewsModelAsync()
     {
-        var model = new NopCommerceNewsModel
+        var model = new sarayetelNewsModel
         {
             HideAdvertisements = _adminAreaSettings.HideAdvertisementsOnAdminArea
         };
@@ -378,7 +378,7 @@ public partial class HomeModelFactory : IHomeModelFactory
             for (var i = 0; i < rssData.Items.Count; i++)
             {
                 var item = rssData.Items.ElementAt(i);
-                var newsItem = new NopCommerceNewsDetailsModel
+                var newsItem = new sarayetelNewsDetailsModel
                 {
                     Title = item.TitleText,
                     Summary = XmlHelper.XmlDecode(item.Content?.Value ?? string.Empty),
@@ -405,7 +405,7 @@ public partial class HomeModelFactory : IHomeModelFactory
         }
         catch (Exception ex)
         {
-            await _logger.ErrorAsync("No access to the news. Website www.nopcommerce.com is not available.", ex);
+            await _logger.ErrorAsync("No access to the news. Website www.sarayetel.com is not available.", ex);
         }
 
         return model;

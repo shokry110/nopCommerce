@@ -70,7 +70,7 @@
     <Value>לקבלת מידע אודות שימוש והתאמה אישית של מערכת נופקומרס, כנסו ל</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>מדור "מסמכים" באתר nopCommerce.com או באתר נופקומרס בעברית nopCommerce.co.il </Value>
+    <Value>מדור "מסמכים" באתר sarayetel.com או באתר נופקומרס בעברית sarayetel.co.il </Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>דוגמה</Value>
@@ -133,12 +133,12 @@
     <Value>פרטי החנות</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>הירשם לניוזלטר של nopCommerce</Value>
+    <Value>הירשם לניוזלטר של sarayetel</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>התקנת nopCommerce</Value>
+    <Value>התקנת sarayetel</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
-    <Value>על מנת להתקין בהצלחה את מערכת ה nopCommerce , עלייך לדעת את מחרוזת החיבור למסד הנתונים. אם אין לך את המידע הזה, באפשרותך  לקבל את המידע מספק האירוח שלך. אם הנך מתקין את nopCommerce על מחשב האישי שלך, באפשרותך לקבל את זה ממנהל המערכת שלך.</Value>
+    <Value>על מנת להתקין בהצלחה את מערכת ה sarayetel , עלייך לדעת את מחרוזת החיבור למסד הנתונים. אם אין לך את המידע הזה, באפשרותך  לקבל את המידע מספק האירוח שלך. אם הנך מתקין את sarayetel על מחשב האישי שלך, באפשרותך לקבל את זה ממנהל המערכת שלך.</Value>
   </LocaleResource>
 </Language>

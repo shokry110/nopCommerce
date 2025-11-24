@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 3.60 to 3.70
+﻿--upgrade scripts from sarayetel 3.60 to 3.70
 
 --new locale resources
 declare @resources xml
@@ -201,7 +201,7 @@ set @resources='
     <Value>Search</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableCssBundling.Hint">
-    <Value>Enable to combine (bundle) multiple CSS files into a single file. Do not enable if you''re running nopCommerce in IIS virtual directory. Note that this functionality requires significant server resources (not recommended to use with cheap shared hosting plans).</Value>
+    <Value>Enable to combine (bundle) multiple CSS files into a single file. Do not enable if you''re running sarayetel in IIS virtual directory. Note that this functionality requires significant server resources (not recommended to use with cheap shared hosting plans).</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableJsBundling.Hint">
     <Value>Enable to combine (bundle) multiple JavaScript files into a single file. Note that this functionality requires significant server resources (not recommended to use with cheap shared hosting plans).</Value>
@@ -1549,10 +1549,10 @@ GO
 
 
 --new setting
-IF NOT EXISTS (SELECT 1 FROM [Setting] WHERE [name] = N'storeinformationsettings.hidepoweredbynopCommerce')
+IF NOT EXISTS (SELECT 1 FROM [Setting] WHERE [name] = N'storeinformationsettings.hidepoweredbysarayetel')
 BEGIN
 	INSERT [Setting] ([Name], [Value], [StoreId])
-	VALUES (N'storeinformationsettings.hidepoweredbynopCommerce', N'false', 0)
+	VALUES (N'storeinformationsettings.hidepoweredbysarayetel', N'false', 0)
 END
 GO
 

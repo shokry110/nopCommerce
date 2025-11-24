@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 2.20 to nopCommerce 2.30
+﻿--upgrade scripts from sarayetel 2.20 to sarayetel 2.30
 
 --new locale resources
 declare @resources xml
@@ -12,7 +12,7 @@ set @resources='
         <Value>Is full trust level</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SystemInfo.NopVersion.Hint">
-        <Value>nopCommerce version</Value>
+        <Value>sarayetel version</Value>
     </LocaleResource>
     <LocaleResource Name="Admin.System.SystemInfo.OperatingSystem.Hint">
         <Value>Operating system</Value>

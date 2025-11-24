@@ -1,5 +1,5 @@
 ﻿/*
-** nopCommerce custom js functions
+** sarayetel custom js functions
 */
 
 

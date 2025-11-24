@@ -20,7 +20,7 @@ public class UPSDefaults
     /// <summary>
     /// Gets the user agent used to request third-party services
     /// </summary>
-    public static string UserAgent => $"nopCommerce-{NopVersion.CURRENT_VERSION}";
+    public static string UserAgent => $"sarayetel-{NopVersion.CURRENT_VERSION}";
 
     /// <summary>
     /// Gets the production API URL

@@ -67,10 +67,10 @@
     <Value>Välj data provider</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Om du behöver information om hur du använder nopCommerce, besök</Value>
+    <Value>Om du behöver information om hur du använder sarayetel, besök</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>dokumentationsavdelningen på nopCommerce.com</Value>
+    <Value>dokumentationsavdelningen på sarayetel.com</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Exempel</Value>
@@ -79,7 +79,7 @@
     <Value>Installera</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>Installerar nopCommerce...</Value>
+    <Value>Installerar sarayetel...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>Använd integrerad Windowsautenticering</Value>
@@ -133,10 +133,10 @@
     <Value>Butiksinformation</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Prenumerera på nopCommerce nyhetsbrev</Value>
+    <Value>Prenumerera på sarayetel nyhetsbrev</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce installation</Value>
+    <Value>sarayetel installation</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>För att genomföra den här guiden behöver du känna till en del information om din databasserver ("anslutningssträng"). Vänligen kontakta din internetleverantör vid behov. Om du installerar på en lokal maskin eller server, kanske du behöver kontakta din systemadministratör.</Value>

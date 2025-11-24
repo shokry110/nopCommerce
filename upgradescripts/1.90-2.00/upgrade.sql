@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 1.90 to nopCommerce 2.00
+﻿--upgrade scripts from sarayetel 1.90 to sarayetel 2.00
 
 DELETE FROM [Customer]
 WHERE IsSystemAccount=0

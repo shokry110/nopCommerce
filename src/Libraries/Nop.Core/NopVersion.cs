@@ -1,7 +1,7 @@
 ﻿namespace Nop.Core;
 
 /// <summary>
-/// Represents nopCommerce version
+/// Represents sarayetel version
 /// </summary>
 public static class NopVersion
 {

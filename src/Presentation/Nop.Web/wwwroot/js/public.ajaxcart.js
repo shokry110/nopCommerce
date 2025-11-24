@@ -1,5 +1,5 @@
 ﻿/*
-** nopCommerce ajax cart implementation
+** sarayetel ajax cart implementation
 */
 
 

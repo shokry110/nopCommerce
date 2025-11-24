@@ -45,7 +45,7 @@ public partial class PluginsInfo : IPluginsInfo
         var filePath = _fileProvider.MapPath(NopPluginDefaults.InstalledPluginsFilePath);
         if (!_fileProvider.FileExists(filePath))
         {
-            //if not, try to parse the file that was used in previous nopCommerce versions
+            //if not, try to parse the file that was used in previous sarayetel versions
             filePath = _fileProvider.MapPath(NopPluginDefaults.ObsoleteInstalledPluginsFilePath);
             if (!_fileProvider.FileExists(filePath))
                 return new List<string>();
@@ -150,7 +150,7 @@ public partial class PluginsInfo : IPluginsInfo
         }
 
         //sort list by display order. NOTE: Lowest DisplayOrder will be first i.e 0 , 1, 1, 1, 5, 10
-        //it's required: https://www.nopcommerce.com/boards/topic/17455/load-plugins-based-on-their-displayorder-on-startup
+        //it's required: https://www.sarayetel.com/boards/topic/17455/load-plugins-based-on-their-displayorder-on-startup
         result = result.OrderBy(item => item.PluginDescriptor.DisplayOrder).ToList();
 
         return result;

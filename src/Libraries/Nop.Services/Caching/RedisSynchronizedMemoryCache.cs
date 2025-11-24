@@ -24,7 +24,7 @@ public partial class RedisSynchronizedMemoryCache : ISynchronizedMemoryCache
     protected bool _disposed;
 
     /// <summary>
-    /// Holds the keys known by this nopCommerce instance
+    /// Holds the keys known by this sarayetel instance
     /// </summary>
     protected readonly ICacheKeyManager _keyManager;
     protected readonly IMemoryCache _memoryCache;

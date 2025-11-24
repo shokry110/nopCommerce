@@ -38,7 +38,7 @@ public partial class DistributedCacheConfig : IConfig
     /// Gets or sets instance name. Used when distributed cache is enabled and DistributedCacheType property is set as Redis or RedisSynchronizedMemory.
     /// Useful when one wants to partition a single Redis server for use with multiple apps, e.g. by setting InstanceName to "development" and "production".
     /// </summary>
-    public string InstanceName { get; protected set; } = "nopCommerce";
+    public string InstanceName { get; protected set; } = "sarayetel";
 
     /// <summary>
     /// Gets or sets the Redis event publish interval in milliseconds.

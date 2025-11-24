@@ -166,7 +166,7 @@ public class BlogModelFactoryTests : BaseNopTest
         model = await _blogModelFactory.PrepareBlogPostListModelAsync(new BlogPagingFilteringModel
         {
             Month = $"{date.Year}-{date.Month}",
-            Tag = "nopCommerce"
+            Tag = "sarayetel"
         });
 
         model.PagingFilteringContext.Month.Should().NotBeNullOrEmpty();

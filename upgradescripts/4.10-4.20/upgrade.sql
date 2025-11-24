@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 4.10 to 4.20
+﻿--upgrade scripts from sarayetel 4.10 to 4.20
 
 --new locale resources
 declare @resources xml
@@ -1965,7 +1965,7 @@ BEGIN
 END
 GO
 
---updating of indexes in the Picture table for reduced table size after upgrade nopCommerce from 4.00 to 4.10 version
+--updating of indexes in the Picture table for reduced table size after upgrade sarayetel from 4.00 to 4.10 version
 ALTER INDEX ALL ON [Picture] REBUILD
 GO
 
@@ -2720,8 +2720,8 @@ AS
 BEGIN
 	--create catalog
 	EXEC('
-	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_catalogs WHERE [name] = ''nopCommerceFullTextCatalog'')
-		CREATE FULLTEXT CATALOG [nopCommerceFullTextCatalog] AS DEFAULT')
+	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_catalogs WHERE [name] = ''sarayetelFullTextCatalog'')
+		CREATE FULLTEXT CATALOG [sarayetelFullTextCatalog] AS DEFAULT')
 
 	DECLARE @SQL nvarchar(500);
 	DECLARE @index_name nvarchar(1000)
@@ -2737,7 +2737,7 @@ BEGIN
 	SET @create_index_text = '
 	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_indexes WHERE object_id = object_id(''[Product]''))
 		CREATE FULLTEXT INDEX ON [Product]([Name], [ShortDescription], [FullDescription])
-		KEY INDEX [' + @index_name +  '] ON [nopCommerceFullTextCatalog] WITH CHANGE_TRACKING AUTO'
+		KEY INDEX [' + @index_name +  '] ON [sarayetelFullTextCatalog] WITH CHANGE_TRACKING AUTO'
 	EXEC(@create_index_text)
 
 	EXEC sp_executesql @SQL, @ParmDefinition, @table_name = 'LocalizedProperty', @index_name_out=@index_name OUTPUT
@@ -2745,7 +2745,7 @@ BEGIN
 	SET @create_index_text = '
 	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_indexes WHERE object_id = object_id(''[LocalizedProperty]''))
 		CREATE FULLTEXT INDEX ON [LocalizedProperty]([LocaleValue])
-		KEY INDEX [' + @index_name +  '] ON [nopCommerceFullTextCatalog] WITH CHANGE_TRACKING AUTO'
+		KEY INDEX [' + @index_name +  '] ON [sarayetelFullTextCatalog] WITH CHANGE_TRACKING AUTO'
 	EXEC(@create_index_text)
 
 	EXEC sp_executesql @SQL, @ParmDefinition, @table_name = 'ProductTag', @index_name_out=@index_name OUTPUT
@@ -2753,7 +2753,7 @@ BEGIN
 	SET @create_index_text = '
 	IF NOT EXISTS (SELECT 1 FROM sys.fulltext_indexes WHERE object_id = object_id(''[ProductTag]''))
 		CREATE FULLTEXT INDEX ON [ProductTag]([Name])
-		KEY INDEX [' + @index_name +  '] ON [nopCommerceFullTextCatalog] WITH CHANGE_TRACKING AUTO'
+		KEY INDEX [' + @index_name +  '] ON [sarayetelFullTextCatalog] WITH CHANGE_TRACKING AUTO'
 	EXEC(@create_index_text)
 END
 GO

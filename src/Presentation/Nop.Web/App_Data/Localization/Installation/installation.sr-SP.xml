@@ -67,10 +67,10 @@
     <Value>Изаберите провајдера података</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Ако су вам потребне информације о томе како користити nopCommerce, посетите</Value>
+    <Value>Ако су вам потребне информације о томе како користити sarayetel, посетите</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>одељак са документацијом на nopCommerce.com</Value>
+    <Value>одељак са документацијом на sarayetel.com</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Пример</Value>
@@ -79,7 +79,7 @@
     <Value>Инсталирај</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>Инсталирање nopCommerce...</Value>
+    <Value>Инсталирање sarayetel...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>Користите интегрисану Windows аутентификација</Value>
@@ -133,10 +133,10 @@
     <Value>Информације о продавцу</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Subscribe to nopCommerce newsletter</Value>
+    <Value>Subscribe to sarayetel newsletter</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce инсталација</Value>
+    <Value>sarayetel инсталација</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>Да бисте довршили овај чаробњак, морате знати неке информације у вези са вашим сервером базе података ("конективни низ"). По потреби контактирајте свог даватеља интернетских услуга. Ако инсталирате на локалну машину или сервер, можда ће вам требати информације са вашег Администратор система.</Value>

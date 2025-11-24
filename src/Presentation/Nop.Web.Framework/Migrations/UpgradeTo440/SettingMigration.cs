@@ -52,7 +52,7 @@ public class SettingMigration : MigrationBase
         settingRepository
             .Delete(setting => setting.Name == "commonsettings.scheduletaskruntimeout" ||
                                setting.Name == "commonsettings.staticfilescachecontrol" ||
-                               setting.Name == "commonsettings.supportpreviousnopcommerceversions" ||
+                               setting.Name == "commonsettings.supportprevioussarayetelversions" ||
                                setting.Name == "securitysettings.pluginstaticfileextensionsBlacklist");
 
         //#5384

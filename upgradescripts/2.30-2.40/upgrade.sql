@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 2.30 to nopCommerce 2.40
+﻿--upgrade scripts from sarayetel 2.30 to sarayetel 2.40
 
 --new locale resources
 declare @resources xml
@@ -81,7 +81,7 @@ set @resources='
     <Value>Desktop store theme</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreThemeForDesktops.Hint">
-    <Value>The public store theme for desktops. You can download themes from the extensions page at www.nopcommerce.com.</Value>
+    <Value>The public store theme for desktops. You can download themes from the extensions page at www.sarayetel.com.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme">
     <Value></Value>
@@ -93,7 +93,7 @@ set @resources='
     <Value>Mobile store theme</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreThemeForMobileDevices.Hint">
-    <Value>The public store theme for mobile devices. You can download themes from the extensions page at www.nopcommerce.com.</Value>
+    <Value>The public store theme for mobile devices. You can download themes from the extensions page at www.sarayetel.com.</Value>
   </LocaleResource>
   <LocaleResource Name="Account.ForumSubscriptions.Description">
     <Value>You will receive an e-mail when a new forum topic/post is created.</Value>
@@ -201,7 +201,7 @@ set @resources='
     <Value>Login using Twitter account</Value>
   </LocaleResource>
   <LocaleResource Name="Plugin.Misc.MailChimp.ManualSync.Hint">
-    <Value>Manually synchronize nopCommerce newsletter subscribers with MailChimp database</Value>
+    <Value>Manually synchronize sarayetel newsletter subscribers with MailChimp database</Value>
   </LocaleResource>
   <LocaleResource Name="Plugin.Misc.MailChimp.QueueAll.Hint">
     <Value>Queue existing newsletter subscribers (run only once)</Value>

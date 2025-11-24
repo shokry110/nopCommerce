@@ -1,5 +1,5 @@
-USE nopcommerce;
-SET @schema = 'nopcommerce';
+USE sarayetel;
+SET @schema = 'sarayetel';
 
 CREATE FUNCTION is_exists (col_name text)
 RETURNS boolean DETERMINISTIC

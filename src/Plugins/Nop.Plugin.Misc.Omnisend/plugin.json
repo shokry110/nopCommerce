@@ -4,7 +4,7 @@
   "SystemName": "Misc.Omnisend",
   "Version": "4.90.5",
   "SupportedVersions": [ "4.90" ],
-  "Author": "nopCommerce team",
+  "Author": "sarayetel team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Misc.Omnisend.dll",
   "Description": "This plugin allows to integrate with Omnisend - email and omnichannel marketing platform"

@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 2.80 to 3.00
+﻿--upgrade scripts from sarayetel 2.80 to 3.00
 
 --new locale resources
 declare @resources xml
@@ -324,7 +324,7 @@ set @resources='
 	<Value>Secure URL</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Stores.Fields.SecureUrl.Hint">
-	<Value>The secure URL of your store e.g. https://www.yourstore.com/ or http://sharedssl.yourstore.com/. Leave it empty if you want nopCommerce to detect secure URL automatically.</Value>
+	<Value>The secure URL of your store e.g. https://www.yourstore.com/ or http://sharedssl.yourstore.com/. Leave it empty if you want sarayetel to detect secure URL automatically.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.UseSSL">
 	<Value></Value>

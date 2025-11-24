@@ -67,10 +67,10 @@
     <Value>Vali andmepakkuja</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Kui vajate teavet nopCommerce'i kasutamise kohta, külastage</Value>
+    <Value>Kui vajate teavet sarayetel'i kasutamise kohta, külastage</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>dokumentatsiooni sektsiooni nopCommerce.com-is</Value>
+    <Value>dokumentatsiooni sektsiooni sarayetel.com-is</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Näide</Value>
@@ -79,7 +79,7 @@
     <Value>paigaldama</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>Paigaldamine nopCommerce...</Value>
+    <Value>Paigaldamine sarayetel...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>Kasutage integreeritud Windowsi autentimist</Value>
@@ -133,10 +133,10 @@
     <Value>Poe teave</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Subscribe to nopCommerce newsletter</Value>
+    <Value>Subscribe to sarayetel newsletter</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce paigaldamine</Value>
+    <Value>sarayetel paigaldamine</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>Selle viisardi lõpetamiseks peate teadma mõningaid andmeid oma andmebaasi serveri kohta ("ühenduse string"). Kui vaja, võtke ühendust oma ISP-ga. Kui paigaldate kohalikule masinale või serverile, võib teil olla vaja teavet oma süsteemi administraatori käest.</Value>

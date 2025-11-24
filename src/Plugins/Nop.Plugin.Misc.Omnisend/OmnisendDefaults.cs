@@ -60,7 +60,7 @@ public class OmnisendDefaults
     /// <summary>
     /// Gets a user agent used to request third-party services
     /// </summary>
-    public static string UserAgent => $"nopCommerce-{NopVersion.CURRENT_VERSION}";
+    public static string UserAgent => $"sarayetel-{NopVersion.CURRENT_VERSION}";
 
     /// <summary>
     /// Gets a header of the API key authorization: key
@@ -85,7 +85,7 @@ public class OmnisendDefaults
     /// <summary>
     /// Gets the integration origin
     /// </summary>
-    public static string IntegrationOrigin => "nopCommerce";
+    public static string IntegrationOrigin => "sarayetel";
 
     /// <summary>
     /// Version of the integration
@@ -95,7 +95,7 @@ public class OmnisendDefaults
     /// <summary>
     /// Default contact tags
     /// </summary>
-    public static List<string> ContactTags => new() { $"source: nopCommerce {NopVersion.FULL_VERSION}" };
+    public static List<string> ContactTags => new() { $"source: sarayetel {NopVersion.FULL_VERSION}" };
 
     /// <summary>
     /// ContactId query parameter name

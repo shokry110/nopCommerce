@@ -443,7 +443,7 @@ public static class ServiceCollectionExtensions
         //client to request current store
         services.AddHttpClient<StoreHttpClient>();
 
-        //client to request nopCommerce official site
+        //client to request sarayetel official site
         services.AddHttpClient<NopHttpClient>().WithProxy();
 
         //client to request reCAPTCHA service

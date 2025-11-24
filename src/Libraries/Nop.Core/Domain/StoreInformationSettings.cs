@@ -8,10 +8,10 @@ namespace Nop.Core.Domain;
 public partial class StoreInformationSettings : ISettings
 {
     /// <summary>
-    /// Gets or sets a value indicating whether "powered by nopCommerce" text should be displayed.
-    /// Please find more info at https://www.nopcommerce.com/nopcommerce-copyright-removal-key
+    /// Gets or sets a value indicating whether "powered by SarayeTel" text should be displayed.
+    /// Please find more info at https://www.sarayetel.com/sarayetel-copyright-removal-key
     /// </summary>
-    public bool HidePoweredByNopCommerce { get; set; }
+    public bool HidePoweredBysarayetel { get; set; }
 
     /// <summary>
     /// Gets or sets a value indicating whether store is closed

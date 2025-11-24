@@ -57,8 +57,8 @@ public class WebHelperTests : BaseNopTest
     [Test]
     public void CanGetStoreLocationInVirtualDirectory()
     {
-        _httpContext.Request.PathBase = "/nopCommercepath";
-        _webHelper.GetStoreLocation(false).Should().Be($"http://{NopTestsDefaults.HostIpAddress}/nopCommercepath/");
+        _httpContext.Request.PathBase = "/sarayetelpath";
+        _webHelper.GetStoreLocation(false).Should().Be($"http://{NopTestsDefaults.HostIpAddress}/sarayetelpath/");
         _httpContext.Request.PathBase = string.Empty;
     }
 
@@ -128,8 +128,8 @@ public class WebHelperTests : BaseNopTest
     [Test]
     public void CanModifyQueryStringInVirtualDirectory()
     {
-        _httpContext.Request.PathBase = "/nopCommercepath";
-        _webHelper.ModifyQueryString("/nopCommercepath/Controller/Action", "param1", "value1").Should().Be("/nopCommercepath/Controller/Action?param1=value1");
+        _httpContext.Request.PathBase = "/sarayetelpath";
+        _webHelper.ModifyQueryString("/sarayetelpath/Controller/Action", "param1", "value1").Should().Be("/sarayetelpath/Controller/Action?param1=value1");
         _httpContext.Request.PathBase = string.Empty;
     }
 }

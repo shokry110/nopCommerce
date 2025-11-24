@@ -488,7 +488,7 @@ public partial class SpecificationAttributeService : ISpecificationAttributeServ
                 sa.DisplayOrder, sa.Name,
                 sao.DisplayOrder, sao.Name
             //linq2db don't specify 'sa' in 'SELECT' statement
-            //see also https://github.com/nopSolutions/nopCommerce/issues/5425
+            //see also https://github.com/nopSolutions/sarayetel/issues/5425
             select new { sa, sao };
 
         var cacheKey = _staticCacheManager.PrepareKeyForDefaultCache(
@@ -529,7 +529,7 @@ public partial class SpecificationAttributeService : ISpecificationAttributeServ
                 sa.DisplayOrder, sa.Name,
                 sao.DisplayOrder, sao.Name
             //linq2db don't specify 'sa' in 'SELECT' statement
-            //see also https://github.com/nopSolutions/nopCommerce/issues/5425
+            //see also https://github.com/nopSolutions/sarayetel/issues/5425
             select new { sa, sao };
 
         var cacheKey = _staticCacheManager.PrepareKeyForDefaultCache(

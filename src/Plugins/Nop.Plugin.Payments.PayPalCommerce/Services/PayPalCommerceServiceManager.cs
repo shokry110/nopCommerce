@@ -542,7 +542,7 @@ public class PayPalCommerceServiceManager
     {
         //in some rare cases we need an additional item to adjust the order total
         //this can happen due to complex discounts or a large order and related to rounding in calculations
-        //PayPal uses two decimal places, while nopCommerce can use more complex types of rounding (configured for each currency separately) 
+        //PayPal uses two decimal places, while sarayetel can use more complex types of rounding (configured for each currency separately) 
         var adjustmentName = await _localizationService.GetResourceAsync("Plugins.Payments.PayPalCommerce.Order.Adjustment.Name");
         var adjustmentDescription = await _localizationService.GetResourceAsync("Plugins.Payments.PayPalCommerce.Order.Adjustment.Description");
         if (items.FirstOrDefault(item => adjustmentName.Equals(item.Name) && adjustmentDescription.Equals(item.Description)) is Item adjustmentItem)

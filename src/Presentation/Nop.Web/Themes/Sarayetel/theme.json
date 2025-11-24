@@ -1,0 +1,7 @@
+﻿{
+  "SystemName": "Sarayetel",
+  "FriendlyName": "Sarayetel RTL",
+  "SupportRTL": true,
+  "PreviewImageUrl": "~/Themes/Sarayetel/preview.jpg",
+  "PreviewText": "Customized RTL-ready Sarayetel storefront"
+}

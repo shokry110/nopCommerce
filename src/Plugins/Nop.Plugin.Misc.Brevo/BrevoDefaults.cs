@@ -16,17 +16,17 @@ public static class BrevoDefaults
     /// <summary>
     /// Gets a plugin partner name
     /// </summary>
-    public static string PartnerName => "NOPCOMMERCE";
+    public static string PartnerName => "sarayetel";
 
     /// <summary>
     /// Gets a user agent used to request Brevo services
     /// </summary>
-    public static string UserAgent => $"nopCommerce-{NopVersion.CURRENT_VERSION}";
+    public static string UserAgent => $"sarayetel-{NopVersion.CURRENT_VERSION}";
 
     /// <summary>
     /// Gets a user agent used to request Brevo services
     /// </summary>
-    public static string UserAgentAccountAPI => "sendinblue_plugins/nopcommerce";
+    public static string UserAgentAccountAPI => "sendinblue_plugins/sarayetel";
 
     /// <summary>
     /// Gets the plugin version (only major versions)
@@ -246,32 +246,32 @@ public static class BrevoDefaults
     /// <summary>
     /// Gets a name of attribute to store an order total sum
     /// </summary>
-    public static string OrderTotalSumServiceAttribute => "NOPCOMMERCE_CA_USER";
+    public static string OrderTotalSumServiceAttribute => "sarayetel_CA_USER";
 
     /// <summary>
     /// Gets a name of attribute to store an order total sum of month
     /// </summary>
-    public static string OrderTotalMonthSumServiceAttribute => "NOPCOMMERCE_LAST_30_DAYS_CA";
+    public static string OrderTotalMonthSumServiceAttribute => "sarayetel_LAST_30_DAYS_CA";
 
     /// <summary>
     /// Gets a name of attribute to store an order count
     /// </summary>
-    public static string OrderCountServiceAttribute => "NOPCOMMERCE_ORDER_TOTAL";
+    public static string OrderCountServiceAttribute => "sarayetel_ORDER_TOTAL";
 
     /// <summary>
     /// Gets a name of attribute to store all orders total sum
     /// </summary>
-    public static string AllOrderTotalSumServiceAttribute => "NOPCOMMERCE_CA_TOTAL";
+    public static string AllOrderTotalSumServiceAttribute => "sarayetel_CA_TOTAL";
 
     /// <summary>
     /// Gets a name of attribute to store all orders total sum of month
     /// </summary>
-    public static string AllOrderTotalMonthSumServiceAttribute => "NOPCOMMERCE_CA_LAST_30DAYS";
+    public static string AllOrderTotalMonthSumServiceAttribute => "sarayetel_CA_LAST_30DAYS";
 
     /// <summary>
     /// Gets a name of attribute to store all orders count
     /// </summary>
-    public static string AllOrderCountServiceAttribute => "NOPCOMMERCE_ORDERS_COUNT";
+    public static string AllOrderCountServiceAttribute => "sarayetel_ORDERS_COUNT";
 
     /// <summary>
     /// Gets a key of the attribute to store shopping cart identifier

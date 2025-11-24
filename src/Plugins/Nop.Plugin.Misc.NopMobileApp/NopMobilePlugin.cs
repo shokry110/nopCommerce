@@ -5,7 +5,7 @@ using Nop.Services.Plugins;
 namespace Nop.Plugin.Misc.NopMobileApp;
 
 /// <summary>
-/// Represents the nopCommerce mobile application helper plugin
+/// Represents the sarayetel mobile application helper plugin
 /// </summary>
 public class NopMobilePlugin : BasePlugin, IMiscPlugin
 {

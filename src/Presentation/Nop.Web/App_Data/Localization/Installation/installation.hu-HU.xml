@@ -67,10 +67,10 @@
     <Value>Válassza az adatszolgáltatót</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Ha információra van szüksége a nopCommerce használatával kapcsolatban, látogasson el</Value>
+    <Value>Ha információra van szüksége a sarayetel használatával kapcsolatban, látogasson el</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>a nopCommerce.com dokumentációs részéhez</Value>
+    <Value>a sarayetel.com dokumentációs részéhez</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Példa</Value>
@@ -79,7 +79,7 @@
     <Value>Telepítse</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>nopCommerce telepítése ...</Value>
+    <Value>sarayetel telepítése ...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>Használja a beépített Windows-hitelesítést</Value>
@@ -133,10 +133,10 @@
     <Value>Áruház információk</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Iratkozzon fel a nopCommerce hírlevélre</Value>
+    <Value>Iratkozzon fel a sarayetel hírlevélre</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce telepítés</Value>
+    <Value>sarayetel telepítés</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>A varázsló befejezéséhez ismernie kell néhány információt az adatbázis-kiszolgálóról ("kapcsolati karakterlánc/connection string"). Ha szükséges, forduljon internetszolgáltatójához. Ha helyi gépre vagy kiszolgálóra telepít, akkor szükség lehet a rendszeradminisztrátor információira.</Value>

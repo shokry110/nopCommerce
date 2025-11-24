@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 3.10 to 3.20
+﻿--upgrade scripts from sarayetel 3.10 to 3.20
 
 --new locale resources
 declare @resources xml
@@ -87,13 +87,13 @@ set @resources='
     <Value>JavaScript bundling and minification</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableJsBundling.Hint">
-    <Value>Enable to combine (bundle) multiple JavaScript files into a single file. Don''t enable if you''re running nopCommerce in web farms or Windows Azure.</Value>
+    <Value>Enable to combine (bundle) multiple JavaScript files into a single file. Don''t enable if you''re running sarayetel in web farms or Windows Azure.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableCssBundling">
     <Value>CSS bundling and minification</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableCssBundling.Hint">
-    <Value>Enable to combine (bundle) multiple CSS files into a single file. Don''t enable if you''re running nopCommerce in web farms or Windows Azure. It also doesn''t work in virtual IIS directories.</Value>
+    <Value>Enable to combine (bundle) multiple CSS files into a single file. Don''t enable if you''re running sarayetel in web farms or Windows Azure. It also doesn''t work in virtual IIS directories.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Shipping.DeliveryDates">
     <Value>Delivery dates</Value>
@@ -2078,28 +2078,28 @@ GO
 IF NOT EXISTS (SELECT 1 FROM [Setting] WHERE [name] = N'storeinformationsettings.facebooklink')
 BEGIN
 	INSERT [Setting] ([Name], [Value], [StoreId])
-	VALUES (N'storeinformationsettings.facebooklink', N'http://www.facebook.com/nopCommerce', 0)
+	VALUES (N'storeinformationsettings.facebooklink', N'http://www.facebook.com/sarayetel', 0)
 END
 GO
 
 IF NOT EXISTS (SELECT 1 FROM [Setting] WHERE [name] = N'storeinformationsettings.twitterlink')
 BEGIN
 	INSERT [Setting] ([Name], [Value], [StoreId])
-	VALUES (N'storeinformationsettings.twitterlink', N'https://twitter.com/nopCommerce', 0)
+	VALUES (N'storeinformationsettings.twitterlink', N'https://twitter.com/sarayetel', 0)
 END
 GO
 
 IF NOT EXISTS (SELECT 1 FROM [Setting] WHERE [name] = N'storeinformationsettings.youtubelink')
 BEGIN
 	INSERT [Setting] ([Name], [Value], [StoreId])
-	VALUES (N'storeinformationsettings.youtubelink', N'http://www.youtube.com/user/nopCommerce', 0)
+	VALUES (N'storeinformationsettings.youtubelink', N'http://www.youtube.com/user/sarayetel', 0)
 END
 GO
 
 IF NOT EXISTS (SELECT 1 FROM [Setting] WHERE [name] = N'storeinformationsettings.googlepluslink')
 BEGIN
 	INSERT [Setting] ([Name], [Value], [StoreId])
-	VALUES (N'storeinformationsettings.googlepluslink', N'https://plus.google.com/+nopcommerce', 0)
+	VALUES (N'storeinformationsettings.googlepluslink', N'https://plus.google.com/+sarayetel', 0)
 END
 GO
 

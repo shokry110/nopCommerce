@@ -7,7 +7,7 @@ using Nop.Web.Framework.Events;
 namespace Nop.Web.Framework.Components;
 
 /// <summary>
-/// Base class for ViewComponent in nopCommerce
+/// Base class for ViewComponent in sarayetel
 /// </summary>
 public abstract partial class NopViewComponent : ViewComponent
 {

@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 4.00 to 4.10
+﻿--upgrade scripts from sarayetel 4.00 to 4.10
 
 --new locale resources
 declare @resources xml
@@ -1224,7 +1224,7 @@ set @resources='
     <Value>Coupon code is empty.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.System.Maintenance.BackupDatabase.Description">
-    <Value>Database backup functionality works only when your nopCommerce application is deployed on the same server as the database. Otherwise you will have to take care of the backup yourself (contact your system administrator).</Value>
+    <Value>Database backup functionality works only when your sarayetel application is deployed on the same server as the database. Otherwise you will have to take care of the backup yourself (contact your system administrator).</Value>
   </LocaleResource>
   <LocaleResource Name="Catalog.OrderBy.Label">
     <Value>Select product sort order</Value>
@@ -1341,7 +1341,7 @@ set @resources='
     <Value>A value indicating whether to show customers join date.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Captcha.Instructions">
-    <Value><![CDATA[<p>CAPTCHA is a program that can tell whether its user is a human or a computer. You''ve probably seen them — colorful images with distorted text at the bottom of Web registration forms. CAPTCHAs are used by many websites to prevent abuse from "bots" or automated programs usually written to generate spam. No computer programcan read distorted text as well as humans can, so bots cannot navigate sites protected by CAPTCHAs. nopCommerce uses <a href="http://www.google.com/recaptcha" target="_blank">reCAPTCHA</a>.</p>]]></Value>
+    <Value><![CDATA[<p>CAPTCHA is a program that can tell whether its user is a human or a computer. You''ve probably seen them — colorful images with distorted text at the bottom of Web registration forms. CAPTCHAs are used by many websites to prevent abuse from "bots" or automated programs usually written to generate spam. No computer programcan read distorted text as well as humans can, so bots cannot navigate sites protected by CAPTCHAs. sarayetel uses <a href="http://www.google.com/recaptcha" target="_blank">reCAPTCHA</a>.</p>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Admin.ContentManagement.MessageTemplates.Description.OrderCancelled.CustomerNotification">
 	  <Value>This message template is used to notify a customer that the certain order was cancelled. The order can ba cancelled by a customer on the account page or by store owner in Customers - Customers in Orders tab or in Sales - Orders.</Value>
@@ -1920,7 +1920,7 @@ set @resources='
 	  <Value>This message template is used to notify a customer that the certain order was cancelled. The order can be cancelled by a customer on the account page or by store owner in Customers - Customers in Orders tab or in Sales - Orders.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.Captcha.Instructions">
-    <Value><![CDATA[<p>CAPTCHA is a program that can tell whether its user is a human or a computer. You''ve probably seen them — colorful images with distorted text at the bottom of Web registration forms. CAPTCHAs are used by many websites to prevent abuse from "bots" or automated programs usually written to generate spam. No computer program can read distorted text as well as humans can, so bots cannot navigate sites protected by CAPTCHAs. nopCommerce uses <a href="http://www.google.com/recaptcha" target="_blank">reCAPTCHA</a>.</p>]]></Value>
+    <Value><![CDATA[<p>CAPTCHA is a program that can tell whether its user is a human or a computer. You''ve probably seen them — colorful images with distorted text at the bottom of Web registration forms. CAPTCHAs are used by many websites to prevent abuse from "bots" or automated programs usually written to generate spam. No computer program can read distorted text as well as humans can, so bots cannot navigate sites protected by CAPTCHAs. sarayetel uses <a href="http://www.google.com/recaptcha" target="_blank">reCAPTCHA</a>.</p>]]></Value>
   </LocaleResource>
   <LocaleResource Name="Account.Login.NewCustomerText">
     <Value>By creating an account on our website, you will be able to shop faster, be up to date on an orders status, and keep track of the orders you have previously made.</Value>
@@ -3944,10 +3944,10 @@ END
 GO
 
 --new setting
-IF NOT EXISTS (SELECT 1 FROM [Setting] WHERE [Name] = N'commonsettings.supportpreviousnopcommerceversions')
+IF NOT EXISTS (SELECT 1 FROM [Setting] WHERE [Name] = N'commonsettings.supportprevioussarayetelversions')
 BEGIN
 	INSERT [Setting] ([Name], [Value], [StoreId])
-	VALUES (N'commonsettings.supportpreviousnopcommerceversions', N'true', 0)
+	VALUES (N'commonsettings.supportprevioussarayetelversions', N'true', 0)
 END
 GO
 

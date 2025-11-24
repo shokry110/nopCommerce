@@ -1,4 +1,4 @@
-﻿--upgrade scripts from nopCommerce 3.30 to 3.40
+﻿--upgrade scripts from sarayetel 3.30 to 3.40
 
 --new locale resources
 declare @resources xml
@@ -72,7 +72,7 @@ set @resources='
     <Value>You can get more themes on</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme.Hint">
-    <Value>The public store theme. You can download themes from the extensions page at www.nopcommerce.com.</Value>
+    <Value>The public store theme. You can download themes from the extensions page at www.sarayetel.com.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterTickedByDefault">
     <Value>Newsletter ticked by default</Value>
@@ -120,10 +120,10 @@ set @resources='
     <Value>Load shipments with products from a specified warehouse.</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableCssBundling.Hint">
-    <Value>Enable to combine (bundle) multiple CSS files into a single file. Don''t enable if you''re running nopCommerce in web farms or Windows Azure. It also doesn''t work in virtual IIS directories. Note that this functionality requires significant server resources (not recommended to use with cheap shared hosting plans).</Value>
+    <Value>Enable to combine (bundle) multiple CSS files into a single file. Don''t enable if you''re running sarayetel in web farms or Windows Azure. It also doesn''t work in virtual IIS directories. Note that this functionality requires significant server resources (not recommended to use with cheap shared hosting plans).</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableJsBundling.Hint">
-    <Value>Enable to combine (bundle) multiple JavaScript files into a single file. Don''t enable if you''re running nopCommerce in web farms or Windows Azure. Note that this functionality requires significant server resources (not recommended to use with cheap shared hosting plans).</Value>
+    <Value>Enable to combine (bundle) multiple JavaScript files into a single file. Don''t enable if you''re running sarayetel in web farms or Windows Azure. Note that this functionality requires significant server resources (not recommended to use with cheap shared hosting plans).</Value>
   </LocaleResource>
   <LocaleResource Name="Account.AssociatedExternalAuth.YourAccountWillBeLinkedTo.Remove">
     <Value>(remove)</Value>

@@ -6,9 +6,9 @@
     <Authors>Nop Solutions, Ltd</Authors>
     <Version>4.90</Version>
     <Description>This project contains a set of core services, business logic, validations or calculations related with the data, if needed. Some people call it Business Access Layer (BAL).</Description>
-    <PackageLicenseUrl>https://www.nopcommerce.com/license</PackageLicenseUrl>
-    <PackageProjectUrl>https://www.nopcommerce.com/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/nopSolutions/nopCommerce</RepositoryUrl>
+    <PackageLicenseUrl>https://www.sarayetel.com/license</PackageLicenseUrl>
+    <PackageProjectUrl>https://www.sarayetel.com/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nopSolutions/sarayetel</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

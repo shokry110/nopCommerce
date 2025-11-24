@@ -1,5 +1,5 @@
 /*
-** nopCommerce one page checkout
+** sarayetel one page checkout
 */
 
 

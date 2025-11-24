@@ -1,5 +1,5 @@
 /*
-** nopCommerce custom accordion
+** sarayetel custom accordion
 */
 
 var Accordion = {

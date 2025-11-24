@@ -4,8 +4,8 @@
   "SystemName": "Misc.WebApi.Frontend",
   "Version": "4.90.1",
   "SupportedVersions": [ "4.90" ],
-  "Author": "nopCommerce team",
+  "Author": "sarayetel team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Misc.WebApi.Frontend.dll",
-  "Description": "nopCommerce Web API for frontend"
+  "Description": "sarayetel Web API for frontend"
 }

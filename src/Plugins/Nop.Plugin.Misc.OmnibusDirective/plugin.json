@@ -4,7 +4,7 @@
   "SystemName": "Misc.OmnibusDirective",
   "Version": "4.90.1",
   "SupportedVersions": [ "4.90" ],
-  "Author": "nopCommerce team",
+  "Author": "sarayetel team",
   "DisplayOrder": 1,
   "FileName": "Nop.Plugin.Misc.OmnibusDirective.dll",
   "Description": "This plugin keeps your pricing compliant with the EU Omnibus Directive."

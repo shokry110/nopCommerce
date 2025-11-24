@@ -3,22 +3,22 @@
 namespace Nop.Web.Areas.Admin.Models.Home;
 
 /// <summary>
-/// Represents a nopCommerce news model
+/// Represents a sarayetel news model
 /// </summary>
-public partial record NopCommerceNewsModel : BaseNopModel
+public partial record sarayetelNewsModel : BaseNopModel
 {
     #region Ctor
 
-    public NopCommerceNewsModel()
+    public sarayetelNewsModel()
     {
-        Items = new List<NopCommerceNewsDetailsModel>();
+        Items = new List<sarayetelNewsDetailsModel>();
     }
 
     #endregion
 
     #region Properties
 
-    public List<NopCommerceNewsDetailsModel> Items { get; set; }
+    public List<sarayetelNewsDetailsModel> Items { get; set; }
 
     public bool HasNewItems { get; set; }
 

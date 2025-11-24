@@ -65,7 +65,7 @@ public partial class AppStartedConsumer : IConsumer<AppStartedEvent>
         //insert new ACL permission if exists
         await _permissionService.InsertPermissionsAsync();
 
-        //update nopCommerce core and db
+        //update sarayetel core and db
         var assembly = Assembly.GetAssembly(typeof(ApplicationBuilderExtensions));
         _migrationManager.ApplyUpMigrations(assembly, MigrationProcessType.Update);
         assembly = Assembly.GetAssembly(typeof(IMigrationManager));

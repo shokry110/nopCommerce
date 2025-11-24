@@ -67,10 +67,10 @@
     <Value>Pasirinkite duomenų teikėją</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Jei jums reikia informacijos, kaip naudotis nopCommerce, apsilankykite</Value>
+    <Value>Jei jums reikia informacijos, kaip naudotis sarayetel, apsilankykite</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>dokumentacijos skyriuje nopCommerce.com svetainėje</Value>
+    <Value>dokumentacijos skyriuje sarayetel.com svetainėje</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Pavyzdys</Value>
@@ -79,7 +79,7 @@
     <Value>Įdiegti</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>Diegiamas nopCommerce...</Value>
+    <Value>Diegiamas sarayetel...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>Naudokite integruotą Windows autentifikavimą</Value>
@@ -133,10 +133,10 @@
     <Value>Parduotuvės informacija</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Prenumeruoti nopCommerce naujienlaiškį</Value>
+    <Value>Prenumeruoti sarayetel naujienlaiškį</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce diegimas</Value>
+    <Value>sarayetel diegimas</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>Norint užbaigti šį diegimą, turite žinoti kai kurią informaciją apie jūsų duomenų bazės serverį ("prisijungimo eilutę"). Jei reikia, susisiekite su jūsų interneto paslaugų teikėju. Jei diegiate vietiniame kompiuteryje ar serveryje, jums gali prireikti informacijos iš jūsų sistemos administratoriaus.</Value>

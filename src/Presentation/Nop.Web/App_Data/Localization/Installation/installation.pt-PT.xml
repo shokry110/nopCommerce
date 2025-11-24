@@ -67,10 +67,10 @@
     <Value>Escolha Provedor de dados</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>Se precisar de informações sobre como utilizar o nopCommerce, visite</Value>
+    <Value>Se precisar de informações sobre como utilizar o sarayetel, visite</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>a secção de documentação em nopCommerce.com</Value>
+    <Value>a secção de documentação em sarayetel.com</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>Exemplo</Value>
@@ -79,7 +79,7 @@
     <Value>Instalar</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>Instalando o nopCommerce ...</Value>
+    <Value>Instalando o sarayetel ...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>Utilizar autenticação integrada do Windows</Value>
@@ -133,10 +133,10 @@
     <Value>Informação da loja</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>Subscrever ao newsletter da nopCommerce</Value>
+    <Value>Subscrever ao newsletter da sarayetel</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>instalação nopCommerce</Value>
+    <Value>instalação sarayetel</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>Para concluir este assistente, deve conhecer algumas informações sobre o servidor de base de dados ("connection string"). Entre em contacto com seu ISP, se necessário. Se estiver a instalar numa máquina ou servidor local, poderá necessitar de informações do administrador do sistema.</Value>

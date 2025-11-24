@@ -67,10 +67,10 @@
     <Value>选择数据提供程序</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation1">
-    <Value>如果需要了解如何使用nopCommerce, 请访问</Value>
+    <Value>如果需要了解如何使用sarayetel, 请访问</Value>
   </LocaleResource>
   <LocaleResource Name="Documentation2">
-    <Value>nopCommerce.com上的文档部分</Value>
+    <Value>sarayetel.com上的文档部分</Value>
   </LocaleResource>
   <LocaleResource Name="Example">
     <Value>例子</Value>
@@ -79,7 +79,7 @@
     <Value>安装</Value>
   </LocaleResource>
   <LocaleResource Name="Installing">
-    <Value>正在安装nopCommerce...</Value>
+    <Value>正在安装sarayetel...</Value>
   </LocaleResource>
   <LocaleResource Name="IntegratedAuthentication">
     <Value>使用集成windows身份认证</Value>
@@ -133,10 +133,10 @@
     <Value>商店信息</Value>
   </LocaleResource>
   <LocaleResource Name="SubscribeNewsletters">
-    <Value>订阅 nopCommerce 简讯</Value>
+    <Value>订阅 sarayetel 简讯</Value>
   </LocaleResource>
   <LocaleResource Name="Title">
-    <Value>nopCommerce 安装</Value>
+    <Value>sarayetel 安装</Value>
   </LocaleResource>
   <LocaleResource Name="Tooltip2">
     <Value>完成这个向导，你必须知道如何连接数据库("即连接字符串").如有必要，请联系你的服务提供商。如果在本机或服务器上安装，你可能还需要一些管理员的信息 .</Value>
