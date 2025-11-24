@@ -1,4 +1,10 @@
 ﻿@model LogoModel
+
+@{
+    // Append a static version token to avoid old logo.png being cached indefinitely by browsers
+    var cacheBustedLogoPath = $"{Model.LogoPath}?v={Nop.Core.NopVersion.FULL_VERSION}";
+}
+
 <a href="@Url.RouteUrl(NopRouteNames.General.HOMEPAGE)">
-    <img title="" alt="@Model.StoreName" src="@Model.LogoPath">
+    <img title="" alt="@Model.StoreName" src="@cacheBustedLogoPath">
 </a>
